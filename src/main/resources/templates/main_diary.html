@@ -1,0 +1,61 @@
+<!-- 일기 작성 페이지 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Google Fonts -->
+    <link href="https://webfontworld.github.io/NanumBarunGothic/NanumBarunGothic.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main_diary.css">
+</head>
+<body>
+<header>
+    <div class="box">
+        <img src="./images/TTT.svg" alt="TTT" class="logo">
+
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__list-item"><a href="#" class="nav__link">일기 작성</a></li>
+                <li class="nav__list-item"><a href="diary-analysis" class="nav__link">일기 분석</a></li>
+                <li class="nav__list-item"><a href="#" class="nav__link">모아보기</a></li>            </ul>
+        </nav>
+
+        <div class="status">
+            <div class="profile">
+                <img id="prof" src="./images/profile.svg">
+            </div>
+            <p class="email">
+                sforseohn@ewhain.net
+            </p>
+            <p class="logout">
+                로그아웃
+            </p>
+        </div>
+    </div>
+</header>
+
+<main class="main main--back">
+    <div class="mid">
+        <a href="" class="btn btn__image"><img src="./images/add_image.svg">이미지 삽입</a>
+        <a href="" class="btn btn__link"><img src="./images/add_link.svg">외부 콘텐츠</a>
+    </div>
+
+    <form id="diaryForm">
+        <button type="submit" class="GPT">
+            <img src="./images/GPT.svg">분석하기
+        </button>
+
+        <div class="main--box">
+            <input type="text" id="title" name="title" placeholder="일기 제목을 작성하세요." required><br>
+            <p class="main__date">DATE : 2023. 06. 28</p>
+            <textarea id="content" name="content"
+                      placeholder="오늘 하루를 기록해보세요.
+감정과 관련된 키워드가 많을수록 분석의 명확성이 높아집니다.
+GPT 분석 아이콘을 클릭해 일기를 저장할 수 있습니다." required></textarea>
+        </div>
+    </form>
+</main>
+</body>
+</html>
+<script src="js/diary.js"></script>

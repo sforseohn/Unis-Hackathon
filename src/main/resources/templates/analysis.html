@@ -1,0 +1,92 @@
+<!-- 메인 페이지 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Google Fonts -->
+    <link href="https://webfontworld.github.io/NanumBarunGothic/NanumBarunGothic.css" rel="stylesheet">
+    <link href="css/analysis.css" rel="stylesheet"/>
+</head>
+<body>
+<header>
+    <img src="./images/TTT.svg" alt="TTT" class="logo">
+
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__list-item"><a href="main_diary.html" class="nav__link">일기 작성</a></li>
+            <li class="nav__list-item"><a href="#" class="nav__link">일기 분석</a></li>
+            <li class="nav__list-item"><a href="#" class="nav__link">모아보기</a></li>
+        </ul>
+    </nav>
+
+    <div class="status">
+        <div class="profile">
+            <img id="prof" src="./images/profile.svg">
+        </div>
+        <p class="email">
+            sforseohn@ewhain.net
+        </p>
+        <p class="logout">
+            로그아웃
+        </p>
+    </div>
+</header>
+
+<main>
+    <p class="main__title">CHAT GPT 분석 결과</p>
+    <h1 class="main__date">2023년 6월 28일의 일기 분석</h1>
+    <a href="main_diary.html" class="main__diary">일기 원문보기</a>
+    <img src="./images/ad.jpg" alt="Advertisement" class="ad">
+    <h2 class="text--wordcloud">6월의 워드클라우드</h2>
+    <div class="wordcloud">
+        <img src="./images/wordcloud.png" alt="WordCloud" class="wordcloud--img">
+    </div>
+    <div class="main__back">
+        <ul class="keyword__list">
+            <li class="keyword" id="keyword1">
+                <div class="keyword__image">
+                    <img src="./images/circle.png" class="circle">
+                    <img src="./images/travel-dynamic-color.png" class="icon">
+                </div>
+                <p class="keywords">직업 선택 분석</p>
+                <p class="keytexts q1keywords" id="q1keywords">일본, 도쿄,<br>맛있는 것, 재미있는 것</p>
+            </li>
+            <li class="keyword" id="keyword2">
+                <div class="keyword__image">
+                    <img src="./images/circle.png" class="circle">
+                    <img src="./images/thumb-up-dynamic-color.png" class="icon">
+                </div>
+                <p class="keywords">장단점 분석</p>
+                <p class="keytexts q2keywords" id="q2keywords">천천히 살아가고 싶은데<br>바쁘게 살아가야만 할까?</p>
+            </li>
+            <li class="keyword" id="keyword3">
+                <div class="keyword__image">
+                    <img src="./images/circle.png" class="circle">
+                    <img src="./images/bulb-dynamic-color.png" class="icon">
+                </div>
+                <p class="keywords">역량 발견</p>
+                <p class="keytexts q3keywords" id="q3keywords">현대인의 생활, 바쁜 도시</p>
+            </li>
+            <li class="keyword" id="keyword4">
+                <div class="keyword__image">
+                    <img src="./images/circle.png" class="circle">
+                    <img src="./images/fire-dynamic-color.png" class="icon">
+                </div>
+                <p class="keywords">감정 키워드</p>
+                <p class="keytexts q4keywords" id="q4keywords">조금 슬펐다, 즐거웠어</p>
+            </li>
+        </ul>
+
+        <div id="keywordTexts">
+            일본, 도쿄, 맛있는 것, 재미있는 것
+        </div>
+
+        <div id="explanation">사용자는 여행과 다양한 음식을 즐기는 것을 좋아하는 것 같습니다.
+            이런 취향을 고려하면, 여행 기자, 음식 평론가, 여행 상담사 등의 직업을 고려해 볼 수 있을 것입니다.</div>
+    </div>
+
+</main>
+</body>
+</html>

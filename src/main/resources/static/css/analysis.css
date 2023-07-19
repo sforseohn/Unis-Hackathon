@@ -1,0 +1,268 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+:root {
+    /* colors */
+    --clr-primary: #1E6275;
+    --clr-grad: #BAEFFF;
+    --clr-dark: #464646;
+    --clr-gray: #969696;
+    --clr-light: #FFF;
+    --clr-solid: #F8F9F9;
+    --clr-cloud: rgba(30, 98, 117, 0.6);
+
+    /* font weights */
+    --fw-normal: 400;
+    --fw-bold: 600;
+    --fw-black: 900;
+}
+
+body {
+    margin: 0;
+    font-family: 'NanumBarunGothic', sans-serif;
+    font-size: 1.125rem;
+    color: var(--clr-dark);
+    line-height: 1.6;
+}
+
+header {
+    position: relative;
+    display: grid;
+    grid-template-columns: 100px;
+    height: 100px;
+
+    background-color: var(--clr-light);
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+.logo {
+    margin-left: 20%;
+    width: 100px;
+    grid-row: 1;
+}
+
+.nav {
+    grid-row: 1;
+    margin-top: 1em;
+}
+
+.nav__list {
+    display: flex;
+    justify-content: space-between;
+    float: left;
+
+    margin: 0;
+    padding: 1em;
+
+    list-style: none;
+    font-size: 0.9m; /* 14 / 16 */
+    font-weight: var(--fw-bold);
+    letter-spacing: 1px;
+}
+
+.nav__list-item {
+    align-items: center;
+    margin-right: 2em;
+    margin-left: 3em;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.status {
+    grid-row: 1;
+
+    margin-left: 15rem;
+    align-items: center;
+    display: grid;
+}
+
+.profile {
+    grid-row: 1;
+    padding: .5rem;
+}
+
+#prof {
+    border-radius: 100%;
+}
+
+.email {
+    grid-row: 1;
+    color: var(--clr-primary);
+}
+
+.logout {
+    grid-row: 1;
+    color: var(--clr-gray);
+}
+
+.main__title {
+    text-align: center;
+    margin-top: 2%;
+}
+
+.main__title,
+.main__date {
+    text-align: center;
+}
+
+.main__diary {
+    position: absolute;
+    float: right;
+    width: 200px;
+    height: 50px;
+    right: 10%;
+    top: 20%;
+
+    border-radius: 20px;
+    background: linear-gradient(135deg, #1E6275 0%, #BAEFFF 100%, rgba(217, 217, 217, 0.00) 100%);
+    box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.50);
+
+    color: var(--clr-light);
+    text-decoration: none;
+    text-align: center;
+
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
+}
+
+.ad, .wordcloud, .text--wordcloud {
+    margin-left: 2.5%;
+    width: 35%;
+    color: var(--clr-primary);
+}
+
+.wordcloud {
+    border-radius: 20px;
+    border: 1.5px solid var(--clr-primary);
+    background: rgba(255, 255, 255, 0.40);
+    box-shadow: 0px 0px 10px 1px rgba(30, 98, 117, 0.25);
+
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.wordcloud img {
+    width: 300px;
+}
+
+.main__back {
+    float: right;
+    position: absolute;
+    width: 55%;
+    height: 64%;
+    top: 30%;
+    right: 2.5%;
+
+    background: var(--clr-light);
+}
+
+.main__back:after {
+    content:'';
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    top:0;
+    left:0;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px 1px #1E6275;
+    background: var(--clr-light);
+    opacity: 0.2;
+}
+
+.keyword__list {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: -2.5%;
+    height: 40%;
+}
+
+.keyword {
+    cursor: pointer;
+    width: 22%;
+    height: 100%;
+
+    border-radius: 20px;
+    border: 2.5px solid rgba(30, 98, 117, 0.70);
+    background: #FFF;
+    box-shadow: 0px 0px 20px 1px rgba(30, 98, 117, 0.25);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.keyword__image {
+    cursor: pointer;
+    position: relative;
+    width: 70%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.keyword__image img {
+    max-width: 85%;
+    max-height: 85%;
+}
+
+.circle {
+    position: relative;
+}
+
+.icon {
+    position: absolute;
+    width: 70px;
+}
+
+.keywords {
+    margin-top: .5em;
+    font-size: large;
+    font-weight: 550;
+}
+
+.keytexts {
+    white-space: pre-line;
+    word-break: break-all;
+    font-size:smaller;
+    margin-top: -5%;
+}
+
+#keywordTexts {
+    Width: 80%;
+    margin-left: 5%;
+    margin-top: 2.5%;
+    font-size: x-large;
+    font-weight: 550;
+    color:#1E6275;
+}
+
+#explanation {
+    Width: 80%;
+    margin-left: 5%;
+    margin-top: 2%;
+
+    white-space: pre-line;
+    word-break: break-all;
+    font-size:medium;
+}
