@@ -1,8 +1,6 @@
 package com.ttt.InsightAI.controller;
 
-import com.ttt.InsightAI.domain.User;
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
@@ -68,9 +66,9 @@ public class ViewController {
         return "result";
     }
 
-    @GetMapping("/todolist")
-    public String todolist() {
-        return "todolist";
+    @GetMapping("/present")
+    public String present() {
+        return "present";
     }
 
 
