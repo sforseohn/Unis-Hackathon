@@ -1,9 +1,6 @@
 package com.ttt.InsightAI.controller;
 
-import com.ttt.InsightAI.domain.Analysis;
-import com.ttt.InsightAI.domain.Diary;
-import com.ttt.InsightAI.domain.DiaryAnalysisRequest;
-import com.ttt.InsightAI.domain.User;
+import com.ttt.InsightAI.domain.*;
 import com.ttt.InsightAI.repository.AnalysisRepository;
 import com.ttt.InsightAI.repository.DiaryRepository;
 import com.ttt.InsightAI.repository.UserRepository;
@@ -14,6 +11,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.server.ResponseStatusException;
 
+import java.time.LocalDateTime;
 import java.util.List;
 
 @RestController
@@ -34,10 +32,9 @@ public class DiaryAnalysisController {
     }
 
     @PostMapping
-    public Analysis analyzeDiary(@RequestBody Diary request) {
+    public Analysis analyzeDiary(@RequestBody AnswerRequest request) {
         if (request.getId() == null || request.getAnswer1() == null || request.getAnswer2() == null || request.getAnswer3() == null ||
-                request.getAnswer4() == null || request.getAnswer5() == null ||request.getAnswer6() == null ||
-                request.getDate() == null) {
+                request.getAnswer4() == null || request.getAnswer5() == null ||request.getAnswer6() == null) {
             throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "Request body is invalid");
         }
 
@@ -52,7 +49,7 @@ public class DiaryAnalysisController {
         diary.setAnswer4(request.getAnswer4());
         diary.setAnswer5(request.getAnswer5());
         diary.setAnswer6(request.getAnswer6());
-        diary.setDate(request.getDate());
+        diary.setDate(LocalDateTime.now());
 
         diary = diaryRepository.save(diary); // This will save the diary
 
