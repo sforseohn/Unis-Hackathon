@@ -1,44 +1,42 @@
-.rectangle-div {
+.group-child,
+.present-inner {
   position: absolute;
+  width: 81.25rem;
+  height: 42.06rem;
+}
+.group-child {
   top: 0;
   left: 0;
   border-radius: var(--br-xl);
   background-color: var(--color-gainsboro);
   box-shadow: 0 4px 20px #fff5f2;
-  width: 1300px;
-  height: 673px;
 }
-.desktop-99-inner,
-.spacing2 {
+.present-inner {
+  top: 18.88rem;
+  left: 4.38rem;
+}
+.spacing1 {
   position: absolute;
-  left: 50%;
-  top: 302px;
-  width: 90%;
-  height: 60%;
-  background-color: white;
-  opacity: 0.9;
-}
-.spacing2 {
   height: 100%;
   width: 100%;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: var(--color-steelblue);
+  background-color: var(--color-steelblue-200);
   overflow: hidden;
 }
-.union-icon1 {
+.union-icon {
   position: relative;
-  width: 38px;
-  height: 19px;
+  width: 2.38rem;
+  height: 1.19rem;
 }
-.desktop-99-child,
-.desktop-99-child1,
-.desktop-99-child2,
-.desktop-99-child3,
-.desktop-99-child4,
-.desktop-99-item {
+.ellipse-div,
+.present-child,
+.present-child1,
+.present-child2,
+.present-child3,
+.present-item {
   position: absolute;
   height: 0.98%;
   width: 0.69%;
@@ -49,48 +47,48 @@
   border-radius: 50%;
   background: linear-gradient(180deg, #b7c4d3, #7ca6e3);
 }
-.desktop-99-child1,
-.desktop-99-child2,
-.desktop-99-child3,
-.desktop-99-child4,
-.desktop-99-item {
+.ellipse-div,
+.present-child1,
+.present-child2,
+.present-child3,
+.present-item {
   top: 19.14%;
   right: 62.64%;
   bottom: 79.88%;
   left: 36.67%;
 }
-.desktop-99-child1,
-.desktop-99-child2,
-.desktop-99-child3,
-.desktop-99-child4 {
+.ellipse-div,
+.present-child1,
+.present-child2,
+.present-child3 {
   top: 22.36%;
   right: 29.93%;
   bottom: 76.66%;
   left: 69.38%;
 }
-.desktop-99-child2,
-.desktop-99-child3,
-.desktop-99-child4 {
+.present-child1,
+.present-child2,
+.present-child3 {
   top: 20.21%;
   right: 40.28%;
   bottom: 78.81%;
   left: 59.03%;
 }
-.desktop-99-child3,
-.desktop-99-child4 {
+.present-child2,
+.present-child3 {
   top: 13.77%;
   right: 86.74%;
   bottom: 85.25%;
   left: 12.57%;
 }
-.desktop-99-child4 {
+.present-child3 {
   top: 23.54%;
   right: 92.08%;
   bottom: 75.49%;
   left: 7.22%;
 }
-.spacing3,
-.spacing36px3 {
+.spacing2,
+.spacing36px2 {
   position: absolute;
   height: 100%;
   width: 100%;
@@ -99,65 +97,89 @@
   bottom: 0;
   left: 0;
 }
-.spacing3 {
+.spacing2 {
   background-color: var(--color-steelblue-100);
   overflow: hidden;
 }
-.spacing36px3 {
+.spacing36px2 {
   border: 3px solid var(--color-steelblue-100);
   box-sizing: border-box;
 }
-.div1 {
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
   height: 44.79%;
   width: 8.89%;
   top: 28.13%;
   left: 55.21%;
+  font-size: var(--font-size-7xl);
+  font-family: var(--font-pyeongchang);
+  color: var(--color-seashell);
+  text-align: left;
 }
-.b,
-.div1,
-.en1,
-.kr1 {
+.button,
+.button1,
+.en,
+.kr {
   position: absolute;
   display: inline-block;
 }
-.b {
+.button1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
   height: 44.79%;
   width: 9.72%;
   top: 28.13%;
   left: 70.69%;
-  font-family: var(--font-noto-sans-tc);
+  font-size: var(--font-size-7xl);
+  font-weight: 700;
+  font-family: var(--font-pyeongchang);
+  color: var(--color-seashell);
+  text-align: left;
   text-shadow: 0 4px 20px #fff5f2;
 }
-.en1,
-.kr1 {
+.en,
+.kr {
   height: 100%;
   width: 42.57%;
   top: 0;
   left: 0;
   text-decoration: underline;
 }
-.en1 {
+.en {
   left: 57.43%;
 }
-.div2,
-.kr-group {
+.button2,
+.kr-parent {
   position: absolute;
   top: 28.13%;
 }
-.kr-group {
+.kr-parent {
   height: 44.42%;
   width: 8.12%;
   right: 4.86%;
   bottom: 27.46%;
   left: 87.01%;
 }
-.div2 {
+.button2 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
   height: 44.79%;
   width: 1.94%;
   left: 46.67%;
+  font-size: var(--font-size-7xl);
+  font-family: var(--font-pyeongchang);
+  color: var(--color-seashell);
+  text-align: left;
   display: inline-block;
 }
-.vector-icon {
+.group-item {
   position: absolute;
   height: 3.13%;
   width: 8.89%;
@@ -169,7 +191,7 @@
   overflow: hidden;
   max-height: 100%;
 }
-.group-icon,
+.group-inner,
 .spacing36px-parent {
   position: absolute;
   height: 9.38%;
@@ -179,20 +201,39 @@
   bottom: 90.63%;
   left: 0;
 }
-.group-icon {
-  height: 70.37%;
-  width: 69.94%;
-  right: 15.37%;
-  bottom: 29.63%;
-  left: 14.68%;
+.group-inner {
+  height: 100%;
+  bottom: 0;
+  border-radius: 50%;
+  background-color: var(--color-seashell);
+  box-shadow: 0 0 453.6px #d9d9d9, 0 0 259.2px #d9d9d9, 0 0 21.6px #d9d9d9;
+}
+.g12-icon {
+  position: absolute;
+  height: 40%;
+  width: 61%;
+  top: 31%;
+  right: 19%;
+  bottom: 29%;
+  left: 20%;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
 }
-.desktop-99-child5,
-.desktop-99-child6,
-.desktop-99-child7,
-.rectangle-icon {
+.ellipse-parent {
+  position: absolute;
+  height: 9.77%;
+  width: 6.94%;
+  top: 16.31%;
+  right: 46.88%;
+  bottom: 73.93%;
+  left: 46.18%;
+}
+.present-child4,
+.present-child5,
+.present-child6,
+.rectangle-a {
+  text-decoration: none;
   position: absolute;
   height: 27.34%;
   width: 25.21%;
@@ -201,45 +242,52 @@
   bottom: 38.48%;
   left: 19.03%;
   border-radius: var(--br-xl);
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
-  object-fit: cover;
+  background-image: url(./public/rectangle-2489@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
 }
-.desktop-99-child5,
-.desktop-99-child6,
-.desktop-99-child7 {
+.present-child4,
+.present-child5,
+.present-child6 {
   top: 63.77%;
   bottom: 8.89%;
 }
-.desktop-99-child6,
-.desktop-99-child7 {
+.present-child5,
+.present-child6 {
   right: 23.26%;
   left: 51.53%;
 }
-.desktop-99-child7 {
+.present-child6 {
   top: 34.18%;
   right: 22.99%;
   bottom: 38.48%;
   left: 51.81%;
 }
-.b1 {
+.button3,
+.present {
+  text-align: left;
+  font-size: var(--font-size-7xl);
+  color: var(--color-seashell);
+  font-family: var(--font-pyeongchang);
+}
+.button3 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
   position: absolute;
   height: 3.71%;
   width: 12.57%;
   top: 3.03%;
   left: 4.86%;
+  font-weight: 700;
   display: inline-block;
-  font-family: var(--font-noto-sans-tc);
 }
-.desktop-99 {
+.present {
   position: relative;
-  background-color: var(--color-steelblue);
+  background-color: var(--color-steelblue-200);
   width: 100%;
-  height: 100%;
+  height: 64rem;
   overflow: hidden;
-  text-align: left;
-  font-size: var(--font-size-7xl);
-  color: var(--color-seashell);
-  font-family: var(--font-noto-sans-sogdian);
 }
