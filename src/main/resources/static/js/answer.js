@@ -12,7 +12,7 @@ document.getElementById("q6Form").addEventListener("submit", function (e) {
 
         localStorage.setItem('answer6', answer6);
 
-            // 각각의 답변을 콘솔에 출력합니다.
+            // 각각의 사용자의 답변을 콘솔에 출력합니다.
             console.log(localStorage.getItem('answer1'));
             console.log(localStorage.getItem('answer2'));
             console.log(localStorage.getItem('answer3'));
@@ -33,7 +33,7 @@ document.getElementById("q6Form").addEventListener("submit", function (e) {
               answer6: localStorage.getItem('answer6')
             };
 
-            // 모든 답변을 서버로 보냅니다.
+            // 모든 사용자의 답변을 서버로 보냅니다.
             fetch("http://localhost:8080/diary-analysis", {
               method: 'POST',
               headers: {
