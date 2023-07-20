@@ -29,6 +29,8 @@
       .catch((error) => {
         console.error('Error:', error);
       });
+
+       window.location.href = "\result";
     });
   }
 </script>
