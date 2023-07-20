@@ -69,19 +69,21 @@
     </div>
 
     <script>
-      var groupButton = document.getElementById("groupButton1");
-        if (groupButton) {
-          groupButton.addEventListener("click", function (e) {
+        var groupButton1 = document.getElementById("groupButton1");
+        if (groupButton1) {
+          groupButton1.addEventListener("click", function (e) {
             window.location.href = "Q3.html";
         });
       }
 
       var groupButton = document.getElementById("groupButton");
+      var answer4 = document.getElementsByClassName("answer4")[0];
       if (groupButton) {
         groupButton.addEventListener("click", function (e) {
-          window.location.href = "Q5.html";
-        });
-      }
+        localStorage.setItem('answer4', answer4.value);
+        window.location.href = "Q5.html";
+      });
+    }
       </script>
   </body>
 </html>

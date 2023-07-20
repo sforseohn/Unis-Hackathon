@@ -70,19 +70,21 @@
     </div>
 
     <script>
-      var groupButton = document.getElementById("groupButton1");
+        var groupButton1 = document.getElementById("groupButton1");
+        if (groupButton1) {
+          groupButton1.addEventListener("click", function (e) {
+            window.location.href = "Q2.html";
+        });
+      }
+
+      var groupButton = document.getElementById("groupButton");
+      var answer3 = document.getElementsByClassName("answer3")[0];
       if (groupButton) {
         groupButton.addEventListener("click", function (e) {
-          window.location.href = "Q2.html";
-        });
-      }
-      
-      var groupButton1 = document.getElementById("groupButton");
-      if (groupButton1) {
-        groupButton1.addEventListener("click", function (e) {
-          window.location.href = "Q4.html";
-        });
-      }
+        localStorage.setItem('answer3', answer3.value);
+        window.location.href = "Q4.html";
+      });
+    }
       </script>
   </body>
 </html>

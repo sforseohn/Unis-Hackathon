@@ -60,9 +60,6 @@ public class DiaryAnalysisController {
         analysis.setUser(user);
         analysis.setDiary(diary); // Now we can set the Diary to the Analysis
 
-        // Here, call the method that analyzes the diary and fill the fields of analysis...
-        // analysis = analyzeWithGpt(analysis, diary);
-
         try {
             analysis = openAiService.fetchDiaryAnalysis(diary, analysis);
             analysis = analysisRepository.save(analysis); // This will save the analysis

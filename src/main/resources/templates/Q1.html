@@ -65,11 +65,13 @@
 
     <script>
       var groupButton = document.getElementById("groupButton");
+      var answer1 = document.getElementsByClassName("answer1")[0];
       if (groupButton) {
         groupButton.addEventListener("click", function (e) {
-          window.location.href = "Q2.html";
-        });
-      }
-      </script>
+        localStorage.setItem('answer1', answer1.value);
+        window.location.href = "Q2.html";
+      });
+    }
+    </script>
   </body>
 </html>
