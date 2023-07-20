@@ -9,15 +9,18 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class ViewController {
 
     @GetMapping("/login")
-    public String login(Model model) {
-
+    public String login() {
         return "login";
     }
 
     @GetMapping("/signup")
-    public String signUp(Model model) {
-        model.addAttribute("user", new User());
+    public String signUp() {
         return "join";
+    }
+
+    @GetMapping("/process")
+    public String process(){
+        return "process";
     }
 
     @GetMapping("/diary")

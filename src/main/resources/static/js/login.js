@@ -4,6 +4,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
     var name = document.getElementById('name').value;
     var password = document.getElementById('password').value;
 
+
     fetch('http://localhost:8080/api/users/login', {
         method: 'POST',
         headers: {
@@ -22,7 +23,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
 
             console.log(JSON.stringify({name: name, password: password}));
             alert(data.message);
-            window.location.href = '/diary';
+            window.location.href = '/process';
         }
     })
     .catch((error) => {

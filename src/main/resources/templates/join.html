@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/html">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="initial-scale=1, width=device-width" />
@@ -65,7 +64,7 @@
 
         <div class="div11">생각의 바다에 오신 것을 환영해요!</div>
         <!-- 폼 요소를 <form>으로 감싸줍니다. -->
-        <form id="signupForm" action="/login" th:action="@{/login}" th:object="${user}" method="post">
+        <form id="signupForm" method="post">
         <input
                   id="signup_name"
                   class="input1"
@@ -74,7 +73,6 @@
                   maxlength=""
                   minlength=""
                   required
-                  th:field="*{name}"
                   name="name"
           />
 
@@ -87,10 +85,8 @@
                   minlength=""
                   required
                   autofocus
-                  th:field="*{password}"
                   name="password"
           />
-
 
           <a href="/login">
           <button class="group-button" type="submit" name="signup">
@@ -102,6 +98,7 @@
 
       </div>
     </div>
+    <script src="js/signup.js"></script>
 
   </body>
 </html>
