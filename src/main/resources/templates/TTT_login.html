@@ -1,0 +1,92 @@
+<!-- 메인 페이지 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Google Fonts -->
+    <link href="https://webfontworld.github.io/NanumBarunGothic/NanumBarunGothic.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet"/>
+</head>
+<body>
+<header>
+    <img src="./images/TTT.svg" alt="TTT" class="logo">
+
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__list-item"><a href="main_diary.html" class="nav__link">일기 작성</a></li>
+            <li class="nav__list-item"><a href="#" class="nav__link">일기 분석</a></li>
+            <li class="nav__list-item"><a href="#" class="nav__link">모아보기</a></li>
+        </ul>
+    </nav>
+
+    <nav class="user" >
+        <div class="login" onclick="loginPopup()">
+            로그인
+        </div>
+        <div class="signup" onclick="signupPopup()">
+            회원가입
+        </div>
+    </nav>
+</header>
+
+<main class="main main--file">
+    <img src="images/file_img.png" class="main__file">
+    <h1 class="main__title">
+        나를 알아보는 <br>
+        일기 성향 분석 서비스
+    </h1>
+    <p class="main__intro">
+        일기를 작성하고, Chat Gpt의 분석을 통해 <br>
+        나의 감정과 행동에 대한 객관적인 지표를 얻어보세요!
+    </p>
+    <div class="start">
+        <a href="main_diary" class="btn btn--start">바로 시작하기</a>
+    </div>
+
+    <!-- 로그인 팝업 -->
+    <div id="login__bg" class="login__bg">
+        <div id="login__popup">
+            <div class="login__x" onclick="loginPopdown()">X</div>
+            <form id="loginForm">
+                <img src="./images/TTT.svg" alt="TTT" class="login__logo">
+                <h1 class="login__title">로그인</h1>
+                <div class="login__name">
+                    <input type="text" id="name" name="name" placeholder="이름을 입력해주세요.">
+                </div>
+                <div class="login__password">
+                    <input type="password" id="password" name="password" placeholder="비밀번호를 입력해주세요.">
+                </div>
+                <div class="login__submit">
+                    <input type="submit" value="로그인">
+                </div>
+            </form>
+            <a href="signup" class="login__signup">아직 회원이 아니신가요? 회원 가입</a>
+        </div>
+    </div>
+
+    <!-- 회원가입 팝업 -->
+    <div id="signup__bg" class="signup__bg">
+        <div id="login__popup">
+            <div class="login__x" onclick="signupPopdown()">X</div>
+            <form id="signupForm">
+                <img src="./images/TTT.svg" alt="TTT" class="login__logo">
+                <h1 class="login__title">회원가입</h1>
+                <div class="signup__name">
+                    <input type="text" id="signup_name" name="name" placeholder="이름을 입력해주세요.">
+                </div>
+                <div class="login__password">
+                    <input type="password" id="signup_password" name="password" placeholder="비밀번호를 입력해주세요.">
+                </div>
+                <div class="signup__submit">
+                    <input type="submit" value="회원가입">
+                </div>
+            </form>
+        </div>
+    </div>
+</main>
+<script src="./js/login.js"></script>
+<script src="./js/signup.js"></script>
+</body>
+</html>
