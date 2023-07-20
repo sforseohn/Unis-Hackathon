@@ -18,8 +18,7 @@ import java.util.regex.Pattern;
 @Service
 public class OpenAiService {
     private static final String OPENAI_URL = "https://api.openai.com/v1/chat/completions";
-    private static final String API_KEY = "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";
-
+    private static final String API_KEY = "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";
     private final String apiKey;
     private final OkHttpClient client;
 
@@ -63,7 +62,6 @@ public class OpenAiService {
                 + "결과는 아래의 JSON 형식을 무조건 지켜서 답해줘. \n"
                 + "{ \"category\" : \"\", \"q1Explanation\": \"\", \"q2Explanation\": \"\", \"q3Explanation\": \"\", \"q4Explanation\": \"\", \"q5Explanation\": \"\", \"keywords\": []\n");
 
-
         messagesArray.put(userMessage);
 
         JSONObject requestBody = new JSONObject();
@@ -84,7 +82,6 @@ public class OpenAiService {
                 JSONObject responseJson = new JSONObject(responseBody);
                 JSONObject choicesObject = responseJson.getJSONArray("choices").getJSONObject(0);
                 String content = choicesObject.getJSONObject("message").getString("content");
-                System.out.println(content);
                 content = content.replace("'", "\"");  // replace ' with " to make a valid JSON string
                 System.out.println(content);
                 JSONObject resultJson = new JSONObject(content);
@@ -104,9 +101,11 @@ public class OpenAiService {
         } catch (SocketTimeoutException e) {
             e.printStackTrace();
             System.out.println("Socket timeout exception");
+            throw new IOException("Socket timeout exception", e);
         } catch (IOException e) {
             e.printStackTrace();
             System.out.println("IO exception");
+            throw new IOException("IO exception", e);
         }
         return null;
     }

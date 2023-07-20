@@ -69,27 +69,19 @@
 
     <script>
       var groupButton1 = document.getElementById("groupButton1");
-        if (groupButton1) {
-          groupButton1.addEventListener("click", function (e) {
-            window.location.href = "\q1";
+      if (groupButton1) {
+        groupButton1.addEventListener("click", function (e) {
+          window.location.href = '/q1';
         });
       }
 
-      var groupButton = document.getElementById("groupButton");
-      var answer2 = document.getElementsByClassName("answer2")[0];
-
       document.getElementById("q2Form").addEventListener("submit", function (e) {
         e.preventDefault();
+        var answer2 = document.querySelector('.answer2').value;
+        console.log(answer2);
+        localStorage.setItem('answer2', answer2);
+        window.location.href = '/q3';
       });
-
-      if (groupButton) {
-        groupButton.addEventListener("click", function (e) {
-        localStorage.setItem('answer2', answer2.value);
-        window.location.href = "/q3";
-      });
-    }
-
-
-      </script>
+    </script>
   </body>
 </html>

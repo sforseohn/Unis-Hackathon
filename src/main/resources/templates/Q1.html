@@ -64,21 +64,15 @@
     </div>
 
     <script>
-      var groupButton = document.getElementById("groupButton");
-      var answer1 = document.getElementsByClassName("answer1")[0];
-
       document.getElementById("q1Form").addEventListener("submit", function (e) {
         e.preventDefault();
+        var answer1 = document.querySelector('.answer1').value;
+        console.log(answer1);
+        console.log("answer setting 전");
+        localStorage.setItem('answer1', answer1);
+        console.log("answer setting 완료");
+        window.location.href = '/q2';
       });
-
-      if (groupButton) {
-        groupButton.addEventListener("click", function (e) {
-          console.log("answer setting 전");
-          localStorage.setItem('answer1', answer1.value);
-          console.log("answer setting 완료");
-          window.location.href = "/q2";
-      });
-    }
     </script>
   </body>
 </html>

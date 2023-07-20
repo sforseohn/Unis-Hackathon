@@ -67,26 +67,20 @@
     </div>
 
     <script>
-        var groupButton1 = document.getElementById("groupButton1");
-        if (groupButton1) {
-          groupButton1.addEventListener("click", function (e) {
-            window.location.href = "\q2";
+      var groupButton1 = document.getElementById("groupButton1");
+      if (groupButton1) {
+        groupButton1.addEventListener("click", function (e) {
+          window.location.href = '/q2';
         });
       }
 
-      var groupButton = document.getElementById("groupButton");
-      var answer3 = document.getElementsByClassName("answer3")[0];
-
       document.getElementById("q3Form").addEventListener("submit", function (e) {
         e.preventDefault();
+        var answer3 = document.querySelector('.answer3').value;
+        console.log(answer3);
+        localStorage.setItem('answer3', answer3);
+        window.location.href = '/q4';
       });
-
-      if (groupButton) {
-        groupButton.addEventListener("click", function (e) {
-        localStorage.setItem('answer3', answer3.value);
-        window.location.href = "\q4";
-      });
-    }
-      </script>
+    </script>
   </body>
 </html>
