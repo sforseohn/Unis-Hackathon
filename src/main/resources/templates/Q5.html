@@ -70,26 +70,22 @@
     </div>
 
     <script>
-        var groupButton1 = document.getElementById("groupButton1");
-        if (groupButton1) {
-          groupButton1.addEventListener("click", function (e) {
-            window.location.href = "\q4";
+      var groupButton1 = document.getElementById("groupButton1");
+      if (groupButton1) {
+        groupButton1.addEventListener("click", function (e) {
+          window.location.href = '/q4';
         });
       }
 
-      var groupButton = document.getElementById("groupButton");
       var answer5 = document.getElementsByClassName("answer5")[0];
 
       document.getElementById("q5Form").addEventListener("submit", function (e) {
         e.preventDefault();
+        var answer5 = document.querySelector('.answer5').value;
+        console.log(answer5);
+        localStorage.setItem('answer5', answer5);
+        window.location.href = '/q6';
       });
-
-      if (groupButton) {
-        groupButton.addEventListener("click", function (e) {
-        localStorage.setItem('answer5', answer5.value);
-        window.location.href = "\q6";
-      });
-    }
-      </script>
+    </script>
   </body>
 </html>

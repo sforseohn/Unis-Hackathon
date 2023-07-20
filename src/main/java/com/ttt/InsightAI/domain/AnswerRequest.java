@@ -7,7 +7,7 @@ import javax.persistence.Column;
 
 @Getter @Setter
 public class AnswerRequest {
-    private Long id;
+    private Long userId;
 
     private String answer1;
 

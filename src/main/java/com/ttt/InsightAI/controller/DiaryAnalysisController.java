@@ -33,12 +33,12 @@ public class DiaryAnalysisController {
 
     @PostMapping
     public Analysis analyzeDiary(@RequestBody AnswerRequest request) {
-        if (request.getId() == null || request.getAnswer1() == null || request.getAnswer2() == null || request.getAnswer3() == null ||
+        if (request.getUserId() == null || request.getAnswer1() == null || request.getAnswer2() == null || request.getAnswer3() == null ||
                 request.getAnswer4() == null || request.getAnswer5() == null ||request.getAnswer6() == null) {
             throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "Request body is invalid");
         }
 
-        User user = userRepository.findById(request.getId()).orElseThrow(
+        User user = userRepository.findById(request.getUserId()).orElseThrow(
                 () -> new ResponseStatusException(HttpStatus.NOT_FOUND, "User not found"));
 
         Diary diary = new Diary();
