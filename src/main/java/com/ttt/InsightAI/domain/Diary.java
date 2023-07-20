@@ -10,7 +10,7 @@ import javax.persistence.*;
 import java.time.LocalDateTime;
 
 @Entity @Getter @Setter
-public class Diary {
+public class Diary {   //질문에 대한 답 저장
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -20,10 +20,27 @@ public class Diary {
     @JoinColumn(name = "user_id")
     private User user;
 
-    //질문에 대한 답
-    private String title;
-    private String content;
+//    private String title;
+//    private String content;
+//    private LocalDateTime date;
+
     private LocalDateTime date;
+
+    @Column
+    private String answer1;
+
+    @Column
+    private String answer2;
+
+    @Column
+    private String answer3;
+
+    @Column
+    private String answer4;
+
+    @Column
+    private String answer5;
+
 
     @OneToOne(mappedBy = "diary", cascade = CascadeType.ALL)
     @PrimaryKeyJoinColumn

@@ -12,7 +12,7 @@ import java.util.List;
 @Entity
 @Table(name = "analysis")
 @Getter @Setter
-public class Analysis {
+public class Analysis { //gpt의 대답 - 분석 결과
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -27,29 +27,39 @@ public class Analysis {
     @JoinColumn(name = "user_id", nullable = false)
     private User user;
 
-    // Question 1
-    @ElementCollection
-    private List<String> q1Keywords;
-    @Column
-    private String q1Explanation;
+//    // Question 1
+//    @ElementCollection
+//    private List<String> q1Keywords;
+//    @Column
+//    private String  q1Explanation;
 
-    // Question 2
-    @ElementCollection
-    private List<String> q2Keywords;
+//gpt 분석결과지
+    // 고민 카테고리 분류: [인간관계, 건강, 재물, 진로] 중에서 선택
+    private String category;
+
+    //객관적인 상황 분석, 요약 (2줄)
+    @Column
+    private String  q1Explanation;
+
+    //내담자의 감정 분석, 추측 (2줄)
     @Column
     private String q2Explanation;
 
-    // Question 3
-    @ElementCollection
-    private List<String> q3Keywords;
+    //내담자의 고민거리인 상대방의 입장 분석, 추측
     @Column
     private String q3Explanation;
 
-    // Question 4
-    @ElementCollection
-    private List<String> q4Keywords;
+    //대안 제시: 내담자의 5, 6번 답변을 바탕으로 해결책 구체화
     @Column
     private String q4Explanation;
+
+    // 내담자의 4번 답변 바탕으로 해결 완료 시, 기대 효과 제시
+    @Column
+    private String q5Explanation;
+
+    //내담자가 말한 내용을 키워드로 추출
+    @ElementCollection
+    private List<String> Keywords;
 
     // Emotion
     @ElementCollection

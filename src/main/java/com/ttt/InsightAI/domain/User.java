@@ -31,7 +31,6 @@ public class User {
     private Set<Analysis> analyses = new HashSet<>();
 
     //constructer
-
     public User(){}
 
     public User(String name, String password) {

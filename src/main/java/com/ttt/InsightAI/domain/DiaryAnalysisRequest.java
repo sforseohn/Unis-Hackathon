@@ -1,43 +1,43 @@
 package com.ttt.InsightAI.domain;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
+import lombok.Getter;
+import lombok.Setter;
+
+import javax.persistence.*;
 import java.time.LocalDateTime;
+import java.util.List;
+import java.util.Map;
 
-public class DiaryAnalysisRequest {
-    private Long userId;
-    private String title;
-    private String content;
-    private LocalDateTime date;
+@Entity
+@Table(name = "present")
+@Getter @Setter
+public class DiaryAnalysisRequest { //선물(유튜브, 책)
+//    private Long userId;
+//    private String title;
+//    private String content;
+//    private LocalDateTime date;
 
-    // Getters and setters
-    public Long getUserId() {
-        return userId;
-    }
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
 
-    public void setUserId(Long userId) {
-        this.userId = userId;
-    }
+    @OneToOne
+    @MapsId
+    @JsonBackReference(value = "p_diary")
+    private Diary diary;
 
-    public String getContent() {
-        return content;
-    }
+    @ManyToOne
+    @JsonBackReference(value = "p_user")
+    @JoinColumn(name = "user_id", nullable = false)
+    private User user;
 
-    public void setContent(String content) {
-        this.content = content;
-    }
+    @ElementCollection
+    private List<String> youtubeUrl;
 
-    public String getTitle() {
-        return title;
-    }
+    @ElementCollection
+    private List<String> bookUrl;
 
-    public void setTitle(String title) {
-        this.title = title;
-    }
 
-    public LocalDateTime getDate() {
-        return date;
-    }
 
-    public void setDate(LocalDateTime date) {
-        this.date = date;
-    }
 }
