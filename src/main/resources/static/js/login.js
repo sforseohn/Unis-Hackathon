@@ -1,7 +1,7 @@
 document.getElementById('loginForm').addEventListener('submit', function(event) {
     event.preventDefault();
 
-    var email = document.getElementById('email').value;
+    var name = document.getElementById('name').value;
     var password = document.getElementById('password').value;
 
     fetch('http://localhost:8080/api/users/login', {
@@ -9,7 +9,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
         headers: {
             'Content-Type': 'application/json'
         },
-        body: JSON.stringify({email: email, password: password})
+        body: JSON.stringify({name: name, password: password})
     })
     .then(response => response.json())
     .then(data => {
@@ -20,7 +20,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
             // Save user id to local storage
             localStorage.setItem('userId', data.userId);
 
-            console.log(JSON.stringify({email: email, password: password}));
+            console.log(JSON.stringify({name: name, password: password}));
             alert(data.message);
             window.location.href = '/diary';
         }
