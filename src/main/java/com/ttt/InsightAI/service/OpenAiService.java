@@ -73,7 +73,7 @@ public class OpenAiService {
                 + "6. 내담자가 말한 내용에서 가장 자주 등장하고 연관이 있는 키워드 3개만 선정해줘."
                 + "모든 대답은 반드시 구어체 '~요' 형식으로, 각 대답의 형식에 맞춰서, 할머니가 자식에게 말하듯이, 부드럽게, 위로와 공감을 섞어서 해줘.각 대답의 형식과 예시를 보고 그에 맞춰서 해주고 2줄 정도로 내담자의 말을 반복하지 않고 창의적으로 대답해줘."
                 + "결과는 아래의 JSON 형식을 무조건 지켜서 답해줘. \n"
-                + "{\"q1Explanation\": \"\", \"q2Explanation\": \"\", \"q3Explanation\": \"\", \"q4Explanation\": \"\", \"q5Explanation\": \"\", \"keywords\": []\n}");
+                +"{\"q1Explanation\": \"\", \"q2Explanation\": \"\", \"q3Explanation\": \"\", \"q4Explanation\": \"\", \"q5Explanation\": \"\", \"keywords\": []\n");
 
         messagesArray.put(userMessage);
 
