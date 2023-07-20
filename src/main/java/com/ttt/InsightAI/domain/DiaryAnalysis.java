@@ -7,12 +7,11 @@ import lombok.Setter;
 import javax.persistence.*;
 import java.time.LocalDateTime;
 import java.util.List;
-import java.util.Map;
 
 @Entity
 @Table(name = "present")
 @Getter @Setter
-public class DiaryAnalysisRequest { //선물(유튜브, 책)
+public class DiaryAnalysis { //선물(유튜브, 책)
 //    private Long userId;
 //    private String title;
 //    private String content;

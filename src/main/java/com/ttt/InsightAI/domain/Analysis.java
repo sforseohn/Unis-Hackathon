@@ -56,12 +56,6 @@ public class Analysis { //gpt의 대답 - 분석 결과
 
     //내담자가 말한 내용을 키워드로 추출
     @ElementCollection
-    private List<String> Keywords;
-
-    // Emotion
-    @ElementCollection
-    private List<String> emotionKeywords;
-    @Column
-    private String emotionExplanation;
+    private List<String> keywords;
 
 }

@@ -69,7 +69,7 @@
 .div14 {
   position: absolute;
   height: 4.16%;
-  width: 3.89%;
+  width: 30%;
   left: 4.86%;
   display: inline-block;
 }
@@ -132,7 +132,7 @@
 .div15 {
   height: 4.2%;
   width: 1.94%;
-  top: 1.86%;
+  top: 2.64%;
   left: 46.39%;
   display: inline-block;
   text-shadow: 0 4px 20px #fff5f2;
@@ -449,15 +449,19 @@
   left: 26.6%;
 }
 
-.desktop-78-inner2,
-.desktop-78-inner3 {
-  right: 42.36%;
-  left: 44.79%;
-}
-.desktop-78-inner3 {
+.desktop-78-inner3, .desktop-78-inner4 {
   right: 24.17%;
-  left: 62.99%;
 }
+
+.desktop-78-inner2, .desktop-78-inner5{
+  right: 42.36%;
+}
+
+.desktop-78-inner0, .desktop-78-inner1{
+  right: 60.56%;
+}
+
+
 .desktop-78-child24 {
   position: absolute;
   height: 75.39%;
@@ -492,12 +496,12 @@
 }
 .div17, .div18, .div19, .div20, .div21, .div22{
   height: 5%;
-  width: 30%;
+  width: 70%;
   color: var(--color-gainsboro);
-  text-align: left;
+  text-align: center;
   display: inline-block;
-  font-size: var(--font-size-7xl);
-  font-family: var(--font-carter-one);
+  font-size: 26px;
+  font-family: var(--font-pyeongchang);
 }
 
 .div17 {
@@ -546,14 +550,6 @@
   right: 24.17%;
   bottom: 26.37%;
   left: 62.99%;
-}
-.div22 {
-  position: absolute;
-  top: 28.07%;
-  font-size: var(--font-size-13xl);
-  color: var(--color-gainsboro);
-  text-align: left;
-  display: inline-block;
 }
 
 .rectangle-parent3 {
