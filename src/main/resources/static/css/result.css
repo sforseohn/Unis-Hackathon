@@ -1,30 +1,30 @@
-.spacing19,
-.spacing36px19 {
+.spacing36px5,
+.spacing5 {
   position: absolute;
   width: 100%;
   top: 0;
   right: 0;
   left: 0;
 }
-.spacing19 {
+.spacing5 {
   height: 100%;
   bottom: 0;
-  background-color: var(--color-steelblue);
+  background-color: var(--color-steelblue-200);
   overflow: hidden;
 }
-.spacing36px19 {
+.spacing36px5 {
   height: 9.38%;
   bottom: 90.63%;
 }
-.union-icon105 {
+.union-icon2 {
   position: relative;
-  width: 38px;
-  height: 19px;
+  width: 2.38rem;
+  height: 1.19rem;
 }
-.desktop-71-child,
-.desktop-71-child1,
-.desktop-71-inner,
-.desktop-71-item {
+.desktop-91-child,
+.desktop-91-child1,
+.desktop-91-inner,
+.desktop-91-item {
   position: absolute;
   height: 0.98%;
   width: 0.69%;
@@ -35,56 +35,42 @@
   border-radius: 50%;
   background: linear-gradient(180deg, #b7c4d3, #7ca6e3);
 }
-.desktop-71-child1,
-.desktop-71-inner,
-.desktop-71-item {
+.desktop-91-child1,
+.desktop-91-inner,
+.desktop-91-item {
   height: 0.49%;
   width: 0.35%;
-  top: 18.36%;
-  right: 82.71%;
-  bottom: 81.15%;
-  left: 16.94%;
+  top: 17.58%;
+  right: 82.15%;
+  bottom: 81.93%;
+  left: 17.5%;
 }
-.desktop-71-child1,
-.desktop-71-inner {
+.desktop-91-child1,
+.desktop-91-inner {
   height: 0.98%;
   width: 0.69%;
-  top: 17.38%;
-  right: 83.61%;
-  bottom: 81.64%;
-  left: 15.69%;
+  top: 16.6%;
+  right: 83.26%;
+  bottom: 82.42%;
+  left: 16.04%;
 }
-.desktop-71-child1 {
+.desktop-91-child1 {
   top: 76.56%;
   right: -0.76%;
   bottom: 22.46%;
   left: 100.07%;
 }
-.div23 {
+.b9 {
   position: absolute;
   height: 5.47%;
   width: 38.19%;
   top: 9.38%;
-  left: 18.06%;
+  left: 4.86%;
   font-size: var(--font-size-17xl);
-  color: var(--color-seashell);
   display: inline-block;
 }
-.turtle-icon8 {
-  position: absolute;
-  height: 22.18%;
-  width: 16.32%;
-  top: 1.66%;
-  right: 81.94%;
-  bottom: 76.16%;
-  left: 1.74%;
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
-  object-fit: cover;
-}
-.union-child,
-.union-item {
+.union-child1,
+.union-inner {
   position: absolute;
   height: 91.2%;
   width: 21.77%;
@@ -94,7 +80,7 @@
   left: 5.38%;
   background-color: var(--color-gainsboro);
 }
-.union-item {
+.union-child1 {
   height: 100%;
   width: 84.77%;
   top: 23.67%;
@@ -108,15 +94,11 @@
   backdrop-filter: blur(20px);
   border: 3px solid var(--color-seashell);
   box-sizing: border-box;
-  width: 1300px;
-  height: 752px;
+  width: 81.25rem;
+  height: 47rem;
 }
-.desktop-71-child2,
-.desktop-71-child3,
-.desktop-71-child4,
-.desktop-71-child5,
-.desktop-71-child6,
-.desktop-71-child7 {
+.desktop-91-child2,
+.desktop-91-child3 {
   position: absolute;
   height: 31.64%;
   width: 22.99%;
@@ -126,135 +108,236 @@
   left: 6.25%;
   border-radius: var(--br-xl);
   background-color: var(--color-white);
-  box-shadow: 0 4px 20px 10px #f5e2ce;
+  box-shadow: 0 4px 20px 5px #b6cecc;
 }
-.desktop-71-child3,
-.desktop-71-child4,
-.desktop-71-child5,
-.desktop-71-child6,
-.desktop-71-child7 {
+.desktop-91-child3 {
   height: 31.45%;
   width: 63.26%;
   right: 6.39%;
   bottom: 11.91%;
   left: 30.35%;
 }
-.desktop-71-child4,
-.desktop-71-child5,
-.desktop-71-child6,
-.desktop-71-child7 {
+.desktop-91-child4,
+.desktop-91-child5 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-silver-100);
+  position: absolute;
+  height: 6.45%;
+  width: 37.29%;
+  top: 17.38%;
+  right: 44.1%;
+  bottom: 76.17%;
+  left: 18.61%;
+  border-radius: var(--br-xl);
+}
+.desktop-91-child5 {
+  background-color: var(--color-seashell);
+  height: 5.02%;
+  width: 18.65%;
+  top: 18.07%;
+  right: 62.26%;
+  bottom: 76.92%;
+  left: 19.1%;
+}
+.b10,
+.div8 {
+  position: absolute;
+  display: inline-block;
+  color: var(--color-gray-200);
+}
+.div8 {
+  height: 2.64%;
+  width: 7.78%;
+  top: 26.86%;
+  left: 13.4%;
+  font-family: var(--font-carter-one);
+}
+.b10 {
+  height: 3.13%;
+  width: 8.89%;
+  top: 19.04%;
+  left: 23.96%;
+}
+.group-child4 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+}
+.group-child5 {
+  position: absolute;
+  top: 1.56rem;
+  left: 1.94rem;
+  border-radius: 50%;
+  background-color: var(--color-silver-200);
+  width: 9.13rem;
+  height: 8.63rem;
+}
+.b11 {
+  position: absolute;
+  height: 12.55%;
+  width: 48.31%;
+  top: 74.12%;
+  left: 27.54%;
+  font-size: var(--font-size-5xl);
+  display: inline-block;
+  font-family: var(--font-pyeongchang);
+  color: var(--color-gray-200);
+  text-align: left;
+}
+.group-button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 24.9%;
+  width: 14.38%;
+  top: 28.42%;
+  right: 54.38%;
+  bottom: 46.68%;
+  left: 31.25%;
+}
+.group-button:active {
+  display: flex;
+}
+.group-child7 {
+  position: absolute;
+  top: 1.94rem;
+  left: 1.75rem;
+  border-radius: 50%;
+  background-color: var(--color-silver-200);
+  width: 9.13rem;
+  height: 8.63rem;
+}
+.div9 {
+  position: absolute;
+  height: 12.55%;
+  width: 82.13%;
+  top: 76.47%;
+  left: 9.18%;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-pyeongchang);
+  color: var(--color-gray-200);
+  text-align: left;
+  display: inline-block;
+}
+.rectangle-parent3 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
   height: 24.9%;
   width: 14.38%;
   top: 27.83%;
-  right: 54.38%;
-  bottom: 47.27%;
-  left: 31.25%;
-}
-.desktop-71-child5,
-.desktop-71-child6,
-.desktop-71-child7 {
   right: 38.82%;
+  bottom: 47.27%;
   left: 46.81%;
 }
-.desktop-71-child6,
-.desktop-71-child7 {
+.group-child9 {
+  position: absolute;
+  top: 1.69rem;
+  left: 1.88rem;
+  border-radius: 50%;
+  background-color: var(--color-silver-200);
+  width: 9.13rem;
+  height: 8.63rem;
+}
+.div10 {
+  position: absolute;
+  height: 12.55%;
+  width: 50.24%;
+  top: 74.9%;
+  left: 25.12%;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-pyeongchang);
+  color: var(--color-gray-200);
+  text-align: left;
+  display: inline-block;
+}
+.rectangle-parent4 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 24.9%;
+  width: 14.38%;
   top: 28.22%;
   right: 23.26%;
   bottom: 46.88%;
   left: 62.36%;
 }
-.desktop-71-child7 {
+.div11 {
+  position: absolute;
+  height: 12.55%;
+  width: 46.86%;
+  top: 74.12%;
+  left: 26.57%;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-pyeongchang);
+  color: var(--color-gray-200);
+  text-align: left;
+  display: inline-block;
+}
+.rectangle-parent5 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 24.9%;
+  width: 14.38%;
   top: 28.42%;
   right: 7.78%;
   bottom: 46.68%;
   left: 77.85%;
 }
-.div24 {
+.b12 {
   position: absolute;
-  height: 2.64%;
-  width: 7.78%;
-  top: 19.43%;
-  left: 21.11%;
+  height: 3.13%;
+  width: 6.6%;
+  top: 19.04%;
+  left: 43.47%;
   display: inline-block;
 }
-.p13 {
-  margin: 0;
-}
-.div25,
-.div26 {
+.disappointed-face-icon1 {
   position: absolute;
+  top: 32rem;
+  left: 12.75rem;
+  width: 6.5rem;
+  height: 6.63rem;
+  object-fit: cover;
 }
-.div25 {
-  height: 6.54%;
-  width: 14.17%;
-  top: 60.55%;
-  left: 10.21%;
-  display: inline-block;
-}
-.div26 {
-  top: 698px;
-  left: 140px;
-  font-family: var(--font-inter);
-  color: var(--color-black);
-}
-.div27,
-.div28,
-.div29,
-.div30 {
+.turtle-icon {
   position: absolute;
-  height: 3.32%;
-  width: 25.69%;
-  top: 38.09%;
-  left: 30.35%;
-  display: inline-block;
-}
-.div28,
-.div29,
-.div30 {
-  width: 15.49%;
-  top: 73.73%;
-  left: 9.38%;
-}
-.div29,
-.div30 {
-  top: 39.26%;
-  left: 62.71%;
-}
-.div30 {
-  width: 27.71%;
-  top: 39.06%;
-  left: 78.75%;
-}
-.octopus-icon1,
-.vector-icon7 {
-  position: absolute;
-  height: 5.47%;
-  width: 5.07%;
-  top: 9.38%;
-  right: 4.86%;
-  bottom: 85.16%;
-  left: 90.07%;
+  height: 20.78%;
+  width: 15.68%;
+  top: 31.15%;
+  right: 74.39%;
+  bottom: 48.07%;
+  left: 9.93%;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
-}
-.octopus-icon1 {
-  height: 19.63%;
-  width: 23.68%;
-  top: 30.86%;
-  right: 70.21%;
-  bottom: 49.51%;
-  left: 6.11%;
   object-fit: cover;
 }
-.desktop-71 {
+.desktop-91 {
   position: relative;
-  background-color: var(--color-steelblue);
+  background-color: var(--color-steelblue-200);
   width: 100%;
-  height: 1024px;
+  height: 64rem;
   overflow: hidden;
   text-align: left;
   font-size: var(--font-size-5xl);
-  color: var(--color-gray);
-  font-family: var(--font-carter-one);
+  color: var(--color-seashell);
+  font-family: var(--font-pyeongchang);
 }

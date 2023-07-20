@@ -50,6 +50,8 @@ public class UserController {
         return ResponseEntity.ok(response);
     }
 
+
+
     @GetMapping("/{name}/diaries")
     public ResponseEntity<List<Diary>> getUserDiaries(@PathVariable String name) {
         User user = userRepository.findByName(name);

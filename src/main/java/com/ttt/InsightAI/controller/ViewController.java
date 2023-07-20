@@ -23,15 +23,56 @@ public class ViewController {
         return "process";
     }
 
-    @GetMapping("/diary")
-    public String diary() {
-        return "TTT_main_diary";
+    @GetMapping("/friend")
+    public String choosingFriend(){
+        return "friendChoice";
     }
 
-    @GetMapping("/diary-analysis")
-    public String analysis() {
-        return "TTT_analysis";
+    @GetMapping("/category")
+    public String choosingCategory(){
+        return "category";
     }
+
+    @GetMapping("/q1")
+    public String question1(){
+        return "Q1";
+    }
+
+    @GetMapping("/q2")
+    public String question2(){
+        return "Q2";
+    }
+
+    @GetMapping("/q3")
+    public String question3(){
+        return "Q3";
+    }
+
+    @GetMapping("/q4")
+    public String question4(){
+        return "Q4";
+    }
+
+    @GetMapping("/q5")
+    public String question5(){
+        return "Q5";
+    }
+
+    @GetMapping("/q6")
+    public String question6(){
+        return "Q6";
+    }
+
+    @GetMapping("/result")
+    public String result() {
+        return "result";
+    }
+
+    @GetMapping("/todolist")
+    public String todolist() {
+        return "todolist";
+    }
+
 
     @GetMapping("/{name}/diaries")
     public String diaries() {
