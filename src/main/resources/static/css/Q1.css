@@ -202,6 +202,10 @@
   bottom: 26.76%;
   left: 17.64%;
   box-sizing: border-box;
+
+  font-size: 20px;
+    color: white;
+    padding-top: 1rem;
 }
 .desktop-72-child15 {
   width: 76.88%;
