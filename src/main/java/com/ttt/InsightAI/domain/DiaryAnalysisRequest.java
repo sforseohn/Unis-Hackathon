@@ -13,7 +13,7 @@ import java.util.Map;
 @Table(name = "present")
 @Getter @Setter
 public class DiaryAnalysisRequest { //선물(유튜브, 책)
-    private Long userId;
+//    private Long userId;
 //    private String title;
 //    private String content;
     private LocalDateTime date;
