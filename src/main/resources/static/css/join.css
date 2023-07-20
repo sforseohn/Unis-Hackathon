@@ -229,10 +229,6 @@
 .input,
 .input1 {
   position: absolute;
-  height: 4.39%;
-  width: 25.42%;
-  top: 32.32%;
-  left: 37.29%;
   display: inline-block;
 }
 .input,
@@ -242,14 +238,13 @@
   font-size: var(--font-size-5xl);
   background-color: transparent;
   height: 3.22%;
-  width: 6.39%;
-  top: 55.86%;
-  left: 36.6%;
+  left: 40%;
+  width: 20%;
   color: var(--color-gray-200);
   text-align: left;
 }
 .input1 {
-  width: 3.33%;
+  width: 20%;
   top: 46.97%;
 }
 .group-child1 {
@@ -264,9 +259,9 @@
 .div12 {
   position: absolute;
   height: 64.58%;
-  width: 46.26%;
+  width: 100%;
   top: 16.67%;
-  left: 27.21%;
+  left: 20%;
   font-size: var(--font-size-5xl);
   font-family: var(--font-carter-one);
   color: var(--color-gray-200);
