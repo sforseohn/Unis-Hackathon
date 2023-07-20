@@ -202,6 +202,10 @@
   bottom: 26.76%;
   left: 17.64%;
   box-sizing: border-box;
+
+  font-size: 20px;
+  color: white;
+  padding-top: 1rem;
 }
 .desktop-77-child14 {
   width: 76.88%;
@@ -215,8 +219,8 @@
       position: absolute;
       height: 4.3%;
       top: 39.36%;
-      left: 21%;
-      right: 21%;
+      left: 15%;
+      right: 15%;
       display: inline-block;
       justify-content: center;
       text-align: center;  /* 텍스트를 가운데 정렬 */   /* div를 페이지 가운데로 이동 */
