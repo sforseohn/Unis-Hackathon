@@ -55,11 +55,12 @@
 
       <form id="q1Form">
         <textarea class="answer1" placeholder="직접 입력" required name="answer1"></textarea>
-
-      <button type="submit" class="union-parent8" id="groupButton">
+        <a href="/q2">
+          <button type="submit" class="union-parent8" id="groupButton">
         <img class="union-icon103" alt="" src="public/union20.svg" />
         <img class="union-icon103" alt="" src="public/union21.svg" />
       </button>
+        </a>
       </form>
     </div>
 
@@ -68,8 +69,10 @@
       var answer1 = document.getElementsByClassName("answer1")[0];
       if (groupButton) {
         groupButton.addEventListener("click", function (e) {
-        localStorage.setItem('answer1', answer1.value);
-        window.location.href = "/q2";
+          console.log("answer setting 전");
+          localStorage.setItem('answer1', answer1.value);
+          console.log("answer setting 완료");
+          window.location.href = "/q2";
       });
     }
     </script>
