@@ -25,12 +25,13 @@ public class UserController {
         this.userRepository = userRepository;
     }
 
+    //회원가입과 로그인
     @PostMapping("/signup")
     public ResponseEntity<Map<String, String>> signUp(@RequestBody User user) {
         if (user.getName() == null || user.getName().trim().isEmpty()) {
             return ResponseEntity.badRequest().body(Collections.singletonMap("error", "Name is required"));        }
-        if (userRepository.findByEmail(user.getEmail()) != null) {
-            return ResponseEntity.badRequest().body(Collections.singletonMap("error", "User with this email already exists"));
+        if (userRepository.findByName(user.getName()) != null) {
+            return ResponseEntity.badRequest().body(Collections.singletonMap("error", "User with this name already exists"));
         }
         userRepository.save(user);
         return ResponseEntity.ok(Collections.singletonMap("message", "User registered successfully"));
@@ -38,20 +39,20 @@ public class UserController {
 
     @PostMapping("/login")
     public ResponseEntity<Map<String, Object>> login(@RequestBody User user) {
-        User existingUser = userRepository.findByEmail(user.getEmail());
+        User existingUser = userRepository.findByName(user.getName());
         if (existingUser == null || !existingUser.getPassword().equals(user.getPassword())) {
-            return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body(Collections.singletonMap("error", "Invalid email or password"));
+            return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body(Collections.singletonMap("error", "Invalid name or password"));
         }
-        LOGGER.info("User logged in: {}", user.getEmail());
+        LOGGER.info("User logged in: {}", user.getName());
         Map<String, Object> response = new HashMap<>();
         response.put("message", "User logged in");
         response.put("userId", existingUser.getId());
         return ResponseEntity.ok(response);
     }
 
-    @GetMapping("/{email}/diaries")
-    public ResponseEntity<List<Diary>> getUserDiaries(@PathVariable String email) {
-        User user = userRepository.findByEmail(email);
+    @GetMapping("/{name}/diaries")
+    public ResponseEntity<List<Diary>> getUserDiaries(@PathVariable String name) {
+        User user = userRepository.findByName(name);
         if (user == null) {
             return ResponseEntity.status(HttpStatus.NOT_FOUND).body(null);
         }
@@ -62,9 +63,9 @@ public class UserController {
         return ResponseEntity.ok(diariesList);
     }
 
-    @GetMapping("/{email}/analyses")
-    public ResponseEntity<List<Analysis>> getUserAnalyses(@PathVariable String email) {
-        User user = userRepository.findByEmail(email);
+    @GetMapping("/{name}/analyses")
+    public ResponseEntity<List<Analysis>> getUserAnalyses(@PathVariable String name) {
+        User user = userRepository.findByName(name);
         if (user == null) {
             return ResponseEntity.status(HttpStatus.NOT_FOUND).body(null);
         }

@@ -1,13 +1,15 @@
 package com.ttt.InsightAI.domain;
 
 import com.fasterxml.jackson.annotation.JsonManagedReference;
+import lombok.Getter;
+import lombok.Setter;
 
 import javax.persistence.*;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-@Entity
+@Entity @Getter @Setter
 @Table(name = "users")
 public class User {
     @Id
@@ -28,46 +30,21 @@ public class User {
     @OneToMany(mappedBy = "user", fetch = FetchType.LAZY, cascade = CascadeType.ALL)
     private Set<Analysis> analyses = new HashSet<>();
 
-    // getters and setters
+    //constructer
 
-    public Long getId() {
-        return id;
-    }
+    public User(){}
 
-    public void setId(Long id) {
-        this.id = id;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
+    public User(String name, String password) {
         this.name = name;
-    }
-
-    public String getPassword() {
-        return password;
-    }
-
-    public void setPassword(String password) {
         this.password = password;
     }
 
-
-    public Set<Diary> getDiaries() {
-        return diaries;
-    }
-
-    public void setDiaries(Set<Diary> diaries) {
+    public User(Long id, String name, String password, Set<Diary> diaries, Set<Analysis> analyses) {
+        this.id = id;
+        this.name = name;
+        this.password = password;
         this.diaries = diaries;
-    }
-
-    public Set<Analysis> getAnalyses() {
-        return analyses;
-    }
-
-    public void setAnalyses(Set<Analysis> analyses) {
         this.analyses = analyses;
     }
+
 }
