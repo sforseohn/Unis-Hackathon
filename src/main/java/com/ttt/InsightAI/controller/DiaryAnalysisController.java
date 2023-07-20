@@ -34,18 +34,25 @@ public class DiaryAnalysisController {
     }
 
     @PostMapping
-    public Analysis analyzeDiary(@RequestBody DiaryAnalysisRequest request) {
-        if (request.getUserId() == null || request.getTitle() == null || request.getContent() == null || request.getDate() == null) {
+    public Analysis analyzeDiary(@RequestBody Diary request) {
+        if (request.getId() == null || request.getAnswer1() == null || request.getAnswer2() == null || request.getAnswer3() == null ||
+                request.getAnswer4() == null || request.getAnswer5() == null ||request.getAnswer6() == null ||
+                request.getDate() == null) {
             throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "Request body is invalid");
         }
 
-        User user = userRepository.findById(request.getUserId()).orElseThrow(
+        User user = userRepository.findById(request.getId()).orElseThrow(
                 () -> new ResponseStatusException(HttpStatus.NOT_FOUND, "User not found"));
 
         Diary diary = new Diary();
         diary.setUser(user);
-        diary.setTitle(request.getTitle());
-        diary.setContent(request.getContent());
+//        diary.setTitle(request.getTitle());
+        diary.setAnswer1(request.getAnswer1());
+        diary.setAnswer2(request.getAnswer2());
+        diary.setAnswer3(request.getAnswer3());
+        diary.setAnswer4(request.getAnswer4());
+        diary.setAnswer5(request.getAnswer5());
+        diary.setAnswer6(request.getAnswer6());
         diary.setDate(request.getDate());
 
         diary = diaryRepository.save(diary); // This will save the diary

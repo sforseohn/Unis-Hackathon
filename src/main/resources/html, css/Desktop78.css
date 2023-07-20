@@ -1,0 +1,595 @@
+.spacing36px5,
+.spacing5 {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+.spacing5 {
+  height: 100%;
+  bottom: 0;
+  background-color: var(--color-steelblue);
+  overflow: hidden;
+}
+.spacing36px5 {
+  height: 9.38%;
+  bottom: 90.63%;
+}
+.union-icon33 {
+  position: relative;
+  width: 38px;
+  height: 19px;
+}
+.desktop-78-child,
+.desktop-78-item {
+  position: absolute;
+  height: 0.98%;
+  width: 0.69%;
+  top: -36.62%;
+  right: 90.42%;
+  bottom: 135.64%;
+  left: 8.89%;
+  border-radius: 50%;
+  background: linear-gradient(180deg, #b7c4d3, #7ca6e3);
+}
+.desktop-78-item {
+  top: 76.56%;
+  right: -0.76%;
+  bottom: 22.46%;
+  left: 100.07%;
+}
+.spacing36px6,
+.spacing6 {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+.spacing6 {
+  height: 100%;
+  bottom: 0;
+  background-color: var(--color-steelblue-100);
+  overflow: hidden;
+}
+.spacing36px6 {
+  height: 9.38%;
+  bottom: 90.63%;
+  border: 3px solid var(--color-steelblue-100);
+  box-sizing: border-box;
+}
+.button2,
+.div14 {
+  top: 2.64%;
+  font-size: var(--font-size-7xl);
+}
+.div14 {
+  position: absolute;
+  height: 4.16%;
+  width: 3.89%;
+  left: 4.86%;
+  display: inline-block;
+}
+.button2 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  height: 4.2%;
+  width: 8.89%;
+  left: 55.21%;
+  font-family: var(--font-abhaya-libre-semibold);
+  color: var(--color-seashell);
+  text-align: left;
+}
+.button2,
+.button3,
+.en,
+.kr {
+  position: absolute;
+  display: inline-block;
+}
+.button3 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  height: 4.2%;
+  width: 9.72%;
+  top: 2.64%;
+  left: 70.69%;
+  font-size: var(--font-size-7xl);
+  font-family: var(--font-abhaya-libre-semibold);
+  color: var(--color-seashell);
+  text-align: left;
+}
+.en,
+.kr {
+  height: 100%;
+  width: 42.57%;
+  top: 0;
+  left: 0;
+  text-decoration: underline;
+}
+.en {
+  left: 57.43%;
+}
+.div15,
+.kr-parent {
+  position: absolute;
+  font-size: var(--font-size-7xl);
+}
+.kr-parent {
+  height: 4.16%;
+  width: 8.12%;
+  top: 2.64%;
+  right: 4.86%;
+  bottom: 93.2%;
+  left: 87.01%;
+}
+.div15 {
+  height: 4.2%;
+  width: 1.94%;
+  top: 1.86%;
+  left: 46.39%;
+  display: inline-block;
+  text-shadow: 0 4px 20px #fff5f2;
+}
+.desktop-78-inner,
+.group-icon {
+  position: absolute;
+  height: 0.29%;
+  width: 3.06%;
+  top: 5.91%;
+  right: 51.11%;
+  bottom: 93.8%;
+  left: 45.83%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.group-icon {
+  height: 10.74%;
+  width: 15.83%;
+  top: 27.73%;
+  right: 22.29%;
+  bottom: 61.52%;
+  left: 61.88%;
+}
+.union-icon34,
+.union-icon36 {
+  position: relative;
+  width: 43.06px;
+  height: 24.52px;
+}
+.union-icon36 {
+  width: 24.07px;
+  height: 12.59px;
+}
+.desktop-78-child1,
+.desktop-78-child2,
+.desktop-78-child3,
+.desktop-78-child4,
+.desktop-78-child5,
+.desktop-78-child6 {
+  position: absolute;
+  height: 0.61%;
+  width: 0.45%;
+  top: 56.77%;
+  right: 84.17%;
+  bottom: 42.62%;
+  left: 15.39%;
+  border-radius: 50%;
+  background: linear-gradient(180deg, #b7c4d3, #7ca6e3);
+}
+.desktop-78-child2,
+.desktop-78-child3,
+.desktop-78-child4,
+.desktop-78-child5,
+.desktop-78-child6 {
+  top: 91.92%;
+  right: 88.1%;
+  bottom: 7.46%;
+  left: 11.45%;
+}
+.desktop-78-child3,
+.desktop-78-child4,
+.desktop-78-child5,
+.desktop-78-child6 {
+  top: 63.21%;
+  right: 94.09%;
+  bottom: 36.17%;
+  left: 5.47%;
+}
+.desktop-78-child4,
+.desktop-78-child5,
+.desktop-78-child6 {
+  top: 54%;
+  right: 87.79%;
+  bottom: 45.38%;
+  left: 11.76%;
+}
+.desktop-78-child5,
+.desktop-78-child6 {
+  top: 89.16%;
+  right: 91.73%;
+  bottom: 10.23%;
+  left: 7.83%;
+}
+.desktop-78-child6 {
+  top: 61.37%;
+  right: 89.25%;
+  bottom: 38.02%;
+  left: 10.3%;
+}
+.desktop-78-child10,
+.desktop-78-child11,
+.desktop-78-child12,
+.desktop-78-child7,
+.desktop-78-child8,
+.desktop-78-child9 {
+  position: absolute;
+  height: 0.61%;
+  width: 0.45%;
+  top: 83.74%;
+  right: 78.88%;
+  bottom: 15.65%;
+  left: 20.67%;
+  border-radius: 50%;
+  background: linear-gradient(180deg, #b7c4d3, #7ca6e3);
+}
+.desktop-78-child10,
+.desktop-78-child11,
+.desktop-78-child12,
+.desktop-78-child8,
+.desktop-78-child9 {
+  top: 39.69%;
+  right: 1.03%;
+  bottom: 59.69%;
+  left: 98.52%;
+}
+.desktop-78-child10,
+.desktop-78-child11,
+.desktop-78-child12,
+.desktop-78-child9 {
+  height: 0.72%;
+  top: 62.5%;
+  right: 93.01%;
+  bottom: 36.79%;
+  left: 6.55%;
+}
+.desktop-78-child10,
+.desktop-78-child11,
+.desktop-78-child12 {
+  height: 0.61%;
+  top: 60.45%;
+  right: 88.24%;
+  bottom: 38.94%;
+  left: 11.32%;
+}
+.desktop-78-child11,
+.desktop-78-child12 {
+  top: 82.82%;
+  right: 77.86%;
+  bottom: 16.57%;
+  left: 21.69%;
+}
+.desktop-78-child12 {
+  top: 38.77%;
+  right: 0.02%;
+  bottom: 60.61%;
+  left: 99.54%;
+}
+.desktop-78-child13,
+.desktop-78-child14,
+.desktop-78-child15,
+.desktop-78-child16,
+.desktop-78-child17 {
+  position: absolute;
+  height: 0.61%;
+  width: 0.38%;
+  top: 60.76%;
+  right: 96.95%;
+  bottom: 38.63%;
+  left: 2.67%;
+  border-radius: 50%;
+  background: linear-gradient(180deg, #b7c4d3, #7ca6e3);
+}
+.desktop-78-child14,
+.desktop-78-child15,
+.desktop-78-child16,
+.desktop-78-child17 {
+  top: 17.68%;
+  right: 84.69%;
+  bottom: 81.71%;
+  left: 14.93%;
+}
+.desktop-78-child15,
+.desktop-78-child16,
+.desktop-78-child17 {
+  top: 31.35%;
+  right: 68.02%;
+  bottom: 68.04%;
+  left: 31.6%;
+}
+.desktop-78-child16,
+.desktop-78-child17 {
+  top: 23.34%;
+  right: 73.37%;
+  bottom: 76.05%;
+  left: 26.25%;
+}
+.desktop-78-child17 {
+  top: 16.02%;
+  right: 79.76%;
+  bottom: 83.37%;
+  left: 19.86%;
+}
+.desktop-78-child18,
+.desktop-78-child19,
+.desktop-78-child20,
+.desktop-78-child21,
+.desktop-78-child22,
+.desktop-78-child23 {
+  position: absolute;
+  height: 0.61%;
+  width: 0.38%;
+  top: 28.03%;
+  right: 88.37%;
+  bottom: 71.36%;
+  left: 11.25%;
+  border-radius: 50%;
+  background: linear-gradient(180deg, #b7c4d3, #7ca6e3);
+}
+.desktop-78-child19,
+.desktop-78-child20,
+.desktop-78-child21,
+.desktop-78-child22,
+.desktop-78-child23 {
+  top: 15.72%;
+  right: 63.3%;
+  bottom: 83.66%;
+  left: 36.32%;
+}
+.desktop-78-child20,
+.desktop-78-child21,
+.desktop-78-child22,
+.desktop-78-child23 {
+  top: 16.21%;
+  right: 26.56%;
+  bottom: 83.18%;
+  left: 73.06%;
+}
+.desktop-78-child21,
+.desktop-78-child22,
+.desktop-78-child23 {
+  top: 14.55%;
+  right: 24.83%;
+  bottom: 84.84%;
+  left: 74.79%;
+}
+.desktop-78-child22,
+.desktop-78-child23 {
+  top: 23.05%;
+  right: 9.48%;
+  bottom: 76.34%;
+  left: 90.14%;
+}
+.desktop-78-child23 {
+  top: 0.86%;
+  right: 134.3%;
+  bottom: 98.52%;
+  left: -34.68%;
+}
+.turtle-icon1 {
+  position: absolute;
+  height: 100%;
+  width: 17.04%;
+  top: 0;
+  right: 82.96%;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.div16 {
+  position: absolute;
+  height: 33.79%;
+  width: 80.91%;
+  top: 33.1%;
+  left: 19.09%;
+  display: inline-block;
+}
+.group-child2,
+.turtle-parent {
+  position: absolute;
+  height: 14.16%;
+  width: 44.37%;
+  top: 45.21%;
+  right: 27.78%;
+  bottom: 40.63%;
+  left: 27.85%;
+}
+.group-child2 {
+  cursor: pointer;
+  border: 3px solid var(--color-gainsboro);
+  padding: 0;
+  background-color: transparent;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  box-sizing: border-box;
+}
+.desktop-78-inner1,
+.desktop-78-inner2,
+.desktop-78-inner3 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 11.13%;
+  width: 12.85%;
+  top: 78.22%;
+  right: 60.56%;
+  bottom: 10.64%;
+  left: 26.6%;
+}
+.desktop-78-inner2,
+.desktop-78-inner3 {
+  right: 42.36%;
+  left: 44.79%;
+}
+.desktop-78-inner3 {
+  right: 24.17%;
+  left: 62.99%;
+}
+.desktop-78-child24 {
+  position: absolute;
+  height: 75.39%;
+  width: 68.34%;
+  top: 0;
+  right: 15.81%;
+  bottom: 24.61%;
+  left: 15.85%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.group-child5 {
+  cursor: pointer;
+  border: 3px solid var(--color-gainsboro);
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  box-sizing: border-box;
+}
+.group-child5:hover {
+  background-color: var(--color-gainsboro);
+}
+.div17 {
+  position: absolute;
+  height: 42.98%;
+  width: 34.05%;
+  top: 28.07%;
+  left: 32.97%;
+  font-size: var(--font-size-13xl);
+  font-family: var(--font-carter-one);
+  color: var(--color-gainsboro);
+  text-align: left;
+  display: inline-block;
+}
+.rectangle-parent1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 11.13%;
+  width: 12.85%;
+  top: 62.5%;
+  right: 60.56%;
+  bottom: 26.37%;
+  left: 26.6%;
+}
+.div18,
+.div19,
+.div20 {
+  position: absolute;
+  height: 4.79%;
+  width: 4.38%;
+  top: 81.35%;
+  left: 30.83%;
+  color: var(--color-gainsboro);
+  display: inline-block;
+}
+.div19,
+.div20 {
+  left: 49.03%;
+}
+.div20 {
+  left: 67.22%;
+}
+.rectangle-parent2 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 11.13%;
+  width: 12.85%;
+  top: 62.5%;
+  right: 24.17%;
+  bottom: 26.37%;
+  left: 62.99%;
+}
+.div22 {
+  position: absolute;
+  height: 42.98%;
+  width: 81.08%;
+  top: 28.07%;
+  left: 17.3%;
+  font-size: var(--font-size-13xl);
+  font-family: var(--font-carter-one);
+  color: var(--color-gainsboro);
+  text-align: left;
+  display: inline-block;
+}
+.rectangle-parent3 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 11.13%;
+  width: 12.85%;
+  top: 62.5%;
+  right: 42.36%;
+  bottom: 26.37%;
+  left: 44.79%;
+}
+.union-icon43 {
+  position: relative;
+  width: 93px;
+  height: 116px;
+}
+.union-icon44,
+.union-icon45 {
+  position: relative;
+  width: 215.7px;
+  height: 420.7px;
+}
+.union-icon45 {
+  width: 111px;
+  height: 142px;
+}
+.desktop-78,
+.union-icon46 {
+  position: relative;
+  width: 137px;
+  height: 217px;
+}
+.desktop-78 {
+  background-color: var(--color-steelblue);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-seashell);
+  font-family: var(--font-carter-one);
+}

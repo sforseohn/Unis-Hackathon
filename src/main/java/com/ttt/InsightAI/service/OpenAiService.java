@@ -18,7 +18,7 @@ import java.util.regex.Pattern;
 @Service
 public class OpenAiService {
     private static final String OPENAI_URL = "https://api.openai.com/v1/chat/completions";
-    private static final String API_KEY = "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";
+    private static final String API_KEY = "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";
 
     private final String apiKey;
     private final OkHttpClient client;
@@ -37,12 +37,25 @@ public class OpenAiService {
 
         JSONObject userMessage = new JSONObject();
         userMessage.put("role", "system");
-        userMessage.put("content", diary.getContent()+"\n이것은 사용자의 일기야. 나는 이 일기를 분석해서 사용자의 성향을 분석하려고 해.\n"
-                + "사용자가 분석 결과를 통해서 얻고 싶은 것은 다음과 같아. :\n"
+        userMessage.put("너는 할머니 상담사야. 너는 매우 친절하고, 내담자에게 부정적인 말을 하기보다는 최대한 긍정적인 방향으로 해결책을 제시해주려고 해.\n"
+                "내담자는 6가지 해결 중심 상담기법에 의거한 질문에 따라 답을 했어. 질문과 내담자의 답을 제공해줄테니, 형식에 따라 상담해줘.\n"
+                +"1번 질문: 어떤 고민을 가지고 있는지 설명해주실 수 있을까요?\n"
+                +"1번 대답: "+ diary.getAnswer1()+"\n"
+                +"2번 질문:  그 일이 있었을 때 어떤 기분이 들었나요?\n"
+                +"2번 대답: "+diary.getAnswer2()+"\n"
+                +"3번 질문:  상대방은 왜 그렇게 행동했을 것이라 생각하나요?\n"
+                +"3번 대답: "+diary.getAnswer3()+"\n"
+                +"4번 질문:  만약 상황이 해결된다면, 어떤 변화를 기대하나요?\n"
+                +"4번 대답: "+diary.getAnswer4()+"\n"
+                +"5번 질문:  비슷한 과거의 경험에서 문제를 해결해 본 적이 있나요?\n"
+                +"5번 대답: "+diary.getAnswer5()+"\n"
+                +"6번 질문:  문제 해결을 위해 지금 시도할 수 있는 가장 작은 변화는 무엇일까요?\n"
+                +"6번 대답: "+diary.getAnswer6()+"\n"
+                + "내담자의 대답을 통해 너가 분석해야 하는 내용과 형식은 다음과 같아. :\n"
+                + "<상담사인 너의 분석 형식> \n"
+                + "1. 고민 카테고리 분류: [인간관계, 건강, 재물, 진로] 중에서 선택"
                 + "1. 자신의 흥미와 관심사를 토대로 어떤 직업을 택했을 때 즐겁게 할 수 있을지 찾고자 함.\n"
                 + "2. 장단점을 알고 이를 고치고자 함.\n"
-                + "3. 자신의 역량을 찾고 이를 개발하고 싶음.\n"
-                + "4. 스트레스의 원인을 파악하고 올바르게 해소하고 싶음.\n"
                 + "각 질문에 대한 결과를 사용자의 일기에서 키워드를 뽑아내고, 그에 대한 부연설명을 추가해서 결과별 설명에 넣어줘. 부연설명은 최대한 간단하게 해줘 (1~2문장).\n"
                 + "+감정키워드 명령어: 일기 내용 중 감정 키워드를 뽑고, 그에 대한 근거를 알려줘."
                 + "중요! 예시로 든 아래의 JSON 형식을 따라야 해. 각각의 키워드는 JSON ARRAY 형식으로 알려줘. \n"

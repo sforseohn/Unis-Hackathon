@@ -1,0 +1,265 @@
+.spacing36px4,
+.spacing4 {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+.spacing4 {
+  height: 100%;
+  bottom: 0;
+  background-color: var(--color-steelblue);
+  overflow: hidden;
+}
+.spacing36px4 {
+  height: 9.38%;
+  bottom: 90.63%;
+}
+.union-icon20 {
+  position: relative;
+  width: 366.05px;
+  height: 403.05px;
+}
+.union-icon21,
+.union-icon24 {
+  position: relative;
+  width: 68px;
+  height: 37px;
+}
+.union-icon24 {
+  width: 38px;
+  height: 19px;
+}
+.desktop-79-child,
+.desktop-79-child1,
+.desktop-79-child2,
+.desktop-79-inner,
+.desktop-79-item {
+  position: absolute;
+  height: 0.98%;
+  width: 0.69%;
+  top: 36.72%;
+  right: 54.65%;
+  bottom: 62.3%;
+  left: 44.65%;
+  border-radius: 50%;
+  background: linear-gradient(180deg, #b7c4d3, #7ca6e3);
+}
+.desktop-79-child1,
+.desktop-79-child2,
+.desktop-79-inner,
+.desktop-79-item {
+  top: 46.48%;
+  right: 70.35%;
+  bottom: 52.54%;
+  left: 28.96%;
+}
+.desktop-79-child1,
+.desktop-79-child2,
+.desktop-79-inner {
+  top: 34.96%;
+  right: 53.26%;
+  bottom: 64.06%;
+  left: 46.04%;
+}
+.desktop-79-child1,
+.desktop-79-child2 {
+  top: 29.59%;
+  right: 27.64%;
+  bottom: 69.43%;
+  left: 71.67%;
+}
+.desktop-79-child2 {
+  top: 33.11%;
+  right: 17.78%;
+  bottom: 65.92%;
+  left: 81.53%;
+}
+.desktop-79-child3,
+.desktop-79-child4,
+.desktop-79-child5,
+.desktop-79-child6,
+.desktop-79-child7,
+.desktop-79-child8 {
+  position: absolute;
+  height: 0.98%;
+  width: 0.69%;
+  top: 20.21%;
+  right: 40.28%;
+  bottom: 78.81%;
+  left: 59.03%;
+  border-radius: 50%;
+  background: linear-gradient(180deg, #b7c4d3, #7ca6e3);
+}
+.desktop-79-child4,
+.desktop-79-child5,
+.desktop-79-child6,
+.desktop-79-child7,
+.desktop-79-child8 {
+  top: 22.36%;
+  right: 79.65%;
+  bottom: 76.66%;
+  left: 19.65%;
+}
+.desktop-79-child5,
+.desktop-79-child6,
+.desktop-79-child7,
+.desktop-79-child8 {
+  top: 32.13%;
+  right: 85%;
+  bottom: 66.89%;
+  left: 14.31%;
+}
+.desktop-79-child6,
+.desktop-79-child7,
+.desktop-79-child8 {
+  top: 50%;
+  right: 87.36%;
+  bottom: 49.02%;
+  left: 11.94%;
+}
+.desktop-79-child7,
+.desktop-79-child8 {
+  top: 64.45%;
+  right: 80.35%;
+  bottom: 34.57%;
+  left: 18.96%;
+}
+.desktop-79-child8 {
+  top: 67.38%;
+  right: 66.39%;
+  bottom: 31.64%;
+  left: 32.92%;
+}
+.desktop-79-child10,
+.desktop-79-child11,
+.desktop-79-child12,
+.desktop-79-child13,
+.desktop-79-child14,
+.desktop-79-child9 {
+  position: absolute;
+  height: 0.98%;
+  width: 0.69%;
+  top: 72.17%;
+  right: 53.26%;
+  bottom: 26.86%;
+  left: 46.04%;
+  border-radius: 50%;
+  background: linear-gradient(180deg, #b7c4d3, #7ca6e3);
+}
+.desktop-79-child10,
+.desktop-79-child11,
+.desktop-79-child12,
+.desktop-79-child13,
+.desktop-79-child14 {
+  top: 81.15%;
+  right: 63.75%;
+  bottom: 17.87%;
+  left: 35.56%;
+}
+.desktop-79-child11,
+.desktop-79-child12,
+.desktop-79-child13,
+.desktop-79-child14 {
+  top: 56.25%;
+  right: 26.94%;
+  bottom: 42.77%;
+  left: 72.36%;
+}
+.desktop-79-child12,
+.desktop-79-child13,
+.desktop-79-child14 {
+  top: 53.91%;
+  right: 25.21%;
+  bottom: 45.12%;
+  left: 74.1%;
+}
+.desktop-79-child13,
+.desktop-79-child14 {
+  top: 59.08%;
+  right: 17.78%;
+  bottom: 39.94%;
+  left: 81.53%;
+}
+.desktop-79-child14 {
+  top: 76.56%;
+  right: -0.76%;
+  bottom: 22.46%;
+  left: 100.07%;
+}
+.desktop-79-child15 {
+  position: absolute;
+  height: 22.46%;
+  width: 100%;
+  top: 77.54%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-seashell);
+  box-shadow: 0 4px 50px #fff5f2;
+}
+.octopus-icon {
+  position: absolute;
+  height: 16.21%;
+  width: 34.86%;
+  top: 70.9%;
+  right: 64.44%;
+  bottom: 12.89%;
+  left: 0.69%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.p10 {
+  margin: 0;
+}
+.button,
+.div13 {
+  position: absolute;
+  height: 14.55%;
+  width: 55.42%;
+  top: 81.64%;
+  left: 36.6%;
+  display: inline-block;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  height: 3.13%;
+  width: 5.76%;
+  top: 94.73%;
+  left: 72.36%;
+  color: var(--color-gray);
+}
+.button,
+.button1,
+.desktop-79 {
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-carter-one);
+}
+.button1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 3.13%;
+  width: 13.26%;
+  top: 94.73%;
+  left: 81.88%;
+  color: var(--color-gray-200);
+  display: inline-block;
+}
+.desktop-79 {
+  position: relative;
+  background-color: var(--color-steelblue);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  color: var(--color-gray);
+}

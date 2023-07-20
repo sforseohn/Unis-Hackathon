@@ -31,7 +31,7 @@ public class ViewController {
         return "analysis";
     }
 
-    @GetMapping("/{email}/diaries")
+    @GetMapping("/{name}/diaries")
     public String diaries() {
         return "diaries";
     }
