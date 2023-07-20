@@ -12,10 +12,6 @@ import java.util.List;
 @Table(name = "present")
 @Getter @Setter
 public class DiaryAnalysis { //선물(유튜브, 책)
-//    private Long userId;
-//    private String title;
-//    private String content;
-    private LocalDateTime date;
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -33,10 +29,4 @@ public class DiaryAnalysis { //선물(유튜브, 책)
 
     @ElementCollection
     private List<String> youtubeUrl;
-
-    @ElementCollection
-    private List<String> bookUrl;
-
-
-
 }

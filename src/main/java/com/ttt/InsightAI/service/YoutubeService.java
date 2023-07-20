@@ -33,7 +33,7 @@ public class YoutubeService {
                     .list("id,snippet");
 
             for (String keyword : keywords) {
-                SearchListResponse response = request.setMaxResults(2L)//2개 보여주기
+                SearchListResponse response = request.setMaxResults(4L)//2개 보여주기
                         .setQ(keyword)
                         .setType("video")
                         .setKey("AIzaSyAGl4TZ9ldm4oLG5OnJbmTdmP2aLsG_yH0")

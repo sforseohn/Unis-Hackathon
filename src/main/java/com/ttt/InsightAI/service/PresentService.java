@@ -22,8 +22,9 @@ public class PresentService {
         List<String> keywords = analysis.getKeywords();
         List<String> youtubeUrls = youtubeService.searchVideos(keywords);
         DiaryAnalysis diaryAnalysis = new DiaryAnalysis();
+        diaryAnalysis.setUser(analysis.getUser());
+        diaryAnalysis.setDiary(analysis.getDiary());
         diaryAnalysis.setYoutubeUrl(youtubeUrls);
-
 
         try{
             diaryAnalysis = presentRepository.save(diaryAnalysis);
