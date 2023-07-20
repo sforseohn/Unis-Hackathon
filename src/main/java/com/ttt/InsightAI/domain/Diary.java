@@ -41,6 +41,9 @@ public class Diary {   //질문에 대한 답 저장
     @Column
     private String answer5;
 
+    @Column
+    private String answer6;
+
 
     @OneToOne(mappedBy = "diary", cascade = CascadeType.ALL)
     @PrimaryKeyJoinColumn
