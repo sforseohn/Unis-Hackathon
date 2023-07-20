@@ -1,35 +1,35 @@
-.spacing15,
-.spacing36px15 {
+.spacing36px7,
+.spacing7 {
   position: absolute;
   width: 100%;
   top: 0;
   right: 0;
   left: 0;
 }
-.spacing15 {
+.spacing7 {
   height: 100%;
   bottom: 0;
   background-color: var(--color-steelblue);
   overflow: hidden;
 }
-.spacing36px15 {
+.spacing36px7 {
   height: 9.38%;
   bottom: 90.63%;
 }
-.union-icon87,
-.union-icon88 {
+.union-icon47,
+.union-icon48 {
   position: relative;
   width: 68px;
   height: 37px;
 }
-.union-icon88 {
+.union-icon48 {
   width: 38px;
   height: 19px;
 }
-.desktop-73-child,
-.desktop-73-child1,
-.desktop-73-inner,
-.desktop-73-item {
+.desktop-77-child,
+.desktop-77-child1,
+.desktop-77-inner,
+.desktop-77-item {
   position: absolute;
   height: 0.98%;
   width: 0.69%;
@@ -40,33 +40,33 @@
   border-radius: 50%;
   background: linear-gradient(180deg, #b7c4d3, #7ca6e3);
 }
-.desktop-73-child1,
-.desktop-73-inner,
-.desktop-73-item {
+.desktop-77-child1,
+.desktop-77-inner,
+.desktop-77-item {
   top: 94.04%;
   right: 20.56%;
   bottom: 4.98%;
   left: 78.75%;
 }
-.desktop-73-child1,
-.desktop-73-inner {
+.desktop-77-child1,
+.desktop-77-inner {
   top: 80.18%;
   right: 10.56%;
   bottom: 18.85%;
   left: 88.75%;
 }
-.desktop-73-child1 {
+.desktop-77-child1 {
   top: 25.98%;
   right: 15.28%;
   bottom: 73.05%;
   left: 84.03%;
 }
-.desktop-73-child2,
-.desktop-73-child3,
-.desktop-73-child4,
-.desktop-73-child5,
-.desktop-73-child6,
-.desktop-73-child7 {
+.desktop-77-child2,
+.desktop-77-child3,
+.desktop-77-child4,
+.desktop-77-child5,
+.desktop-77-child6,
+.desktop-77-child7 {
   position: absolute;
   height: 0.98%;
   width: 0.69%;
@@ -77,52 +77,52 @@
   border-radius: 50%;
   background: linear-gradient(180deg, #b7c4d3, #7ca6e3);
 }
-.desktop-73-child3,
-.desktop-73-child4,
-.desktop-73-child5,
-.desktop-73-child6,
-.desktop-73-child7 {
+.desktop-77-child3,
+.desktop-77-child4,
+.desktop-77-child5,
+.desktop-77-child6,
+.desktop-77-child7 {
   top: 28.03%;
   right: 40.97%;
   bottom: 71%;
   left: 58.33%;
 }
-.desktop-73-child4,
-.desktop-73-child5,
-.desktop-73-child6,
-.desktop-73-child7 {
+.desktop-77-child4,
+.desktop-77-child5,
+.desktop-77-child6,
+.desktop-77-child7 {
   top: 73.24%;
   right: 75%;
   bottom: 25.78%;
   left: 24.31%;
 }
-.desktop-73-child5,
-.desktop-73-child6,
-.desktop-73-child7 {
+.desktop-77-child5,
+.desktop-77-child6,
+.desktop-77-child7 {
   top: 76.07%;
   right: 71.94%;
   bottom: 22.95%;
   left: 27.36%;
 }
-.desktop-73-child6,
-.desktop-73-child7 {
+.desktop-77-child6,
+.desktop-77-child7 {
   top: 77.05%;
   right: 56.81%;
   bottom: 21.97%;
   left: 42.5%;
 }
-.desktop-73-child7 {
+.desktop-77-child7 {
   top: 63.38%;
   right: 88.13%;
   bottom: 35.64%;
   left: 11.18%;
 }
-.desktop-73-child10,
-.desktop-73-child11,
-.desktop-73-child12,
-.desktop-73-child13,
-.desktop-73-child8,
-.desktop-73-child9 {
+.desktop-77-child10,
+.desktop-77-child11,
+.desktop-77-child12,
+.desktop-77-child13,
+.desktop-77-child8,
+.desktop-77-child9 {
   position: absolute;
   height: 0.98%;
   width: 0.69%;
@@ -133,67 +133,67 @@
   border-radius: 50%;
   background: linear-gradient(180deg, #b7c4d3, #7ca6e3);
 }
-.desktop-73-child10,
-.desktop-73-child11,
-.desktop-73-child12,
-.desktop-73-child13,
-.desktop-73-child9 {
+.desktop-77-child10,
+.desktop-77-child11,
+.desktop-77-child12,
+.desktop-77-child13,
+.desktop-77-child9 {
   top: 91.31%;
   right: 12.92%;
   bottom: 7.71%;
   left: 86.39%;
 }
-.desktop-73-child10,
-.desktop-73-child11,
-.desktop-73-child12,
-.desktop-73-child13 {
+.desktop-77-child10,
+.desktop-77-child11,
+.desktop-77-child12,
+.desktop-77-child13 {
   top: 93.07%;
   right: 18.82%;
   bottom: 5.96%;
   left: 80.49%;
 }
-.desktop-73-child11,
-.desktop-73-child12,
-.desktop-73-child13 {
+.desktop-77-child11,
+.desktop-77-child12,
+.desktop-77-child13 {
   top: 89.84%;
   right: 11.25%;
   bottom: 9.18%;
   left: 88.06%;
 }
-.desktop-73-child12,
-.desktop-73-child13 {
+.desktop-77-child12,
+.desktop-77-child13 {
   top: 90.33%;
   right: 25%;
   bottom: 8.69%;
   left: 74.31%;
 }
-.desktop-73-child13 {
+.desktop-77-child13 {
   top: 76.56%;
   right: -0.76%;
   bottom: 22.46%;
   left: 100.07%;
 }
-.turtle-icon6 {
+.turtle-icon2 {
   position: absolute;
   height: 8.3%;
   width: 4.83%;
   top: 2.05%;
-  right: 64.55%;
+  right: 4.69%;
   bottom: 89.65%;
-  left: 30.63%;
+  left: 90.49%;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
   object-fit: cover;
 }
-.desktop-73-child14,
-.desktop-73-child15 {
+.desktop-77-child14,
+.rectangle-textarea {
   position: absolute;
   height: 11.33%;
   border-radius: var(--br-xl);
   box-shadow: 0 4px 20px #d9d9d9;
 }
-.desktop-73-child14 {
+.rectangle-textarea {
   border: 3px solid var(--color-gainsboro);
   background-color: transparent;
   width: 64.65%;
@@ -203,7 +203,7 @@
   left: 17.64%;
   box-sizing: border-box;
 }
-.desktop-73-child15 {
+.desktop-77-child14 {
   width: 76.88%;
   top: 35.84%;
   right: 11.6%;
@@ -211,8 +211,18 @@
   left: 11.53%;
   background-color: var(--color-gainsboro);
 }
-.desktop-73-child16,
-.desktop-73-child17 {
+.q6 {
+      position: absolute;
+      height: 4.3%;
+      top: 39.36%;
+      left: 21%;
+      right: 21%;
+      display: inline-block;
+      justify-content: center;
+      text-align: center;  /* 텍스트를 가운데 정렬 */   /* div를 페이지 가운데로 이동 */
+}
+.desktop-77-child15,
+.desktop-77-child16 {
   position: absolute;
   height: 1.95%;
   width: 90.21%;
@@ -223,20 +233,10 @@
   border-radius: var(--br-3xs);
   background-color: var(--color);
 }
-.desktop-73-child17 {
-  width: 30.07%;
-  right: 65%;
+.desktop-77-child16 {
   background-color: var(--color-deeppink);
 }
-.q2 {
-  position: absolute;
-  height: 4.3%;
-  top: 39.36%;
-  left: calc(50% - 301px);
-  display: inline-block;
-  width: 602px;
-}
-.vector-icon5 {
+.vector-icon1 {
   position: absolute;
   height: 3.91%;
   width: 2.78%;
@@ -248,36 +248,36 @@
   overflow: hidden;
   max-height: 100%;
 }
-.union-icon93 {
+.union-icon53 {
   position: relative;
   width: 22.68px;
   height: 67.99px;
   opacity: 0.85;
 }
-.union-parent6,
-.union-parent7 {
-  cursor: pointer;
-  border: 0;
-  padding: 0;
-  background-color: transparent;
-  position: absolute;
-  height: 3.91%;
-  width: 4.72%;
-  top: 44.82%;
-  right: 2.92%;
-  bottom: 51.27%;
-  left: 92.36%;
-  transform: rotate(-90deg);
-  transform-origin: 0 0;
-}
-.union-parent7 {
-  top: 38.18%;
-  right: 87.57%;
+.union-group,
+.union-parent {
+                display: flex;
+                cursor: pointer;
+                border: 0;
+                padding: 0;
+                background-color: transparent;
+                position: absolute;
+                height: 3.91%;
+                width: 4.72%;
+                top: 40%;
+                right: 2.92%;
+                bottom: 51.33%;
+                left: 92.36%;
+                transform-origin: 0 0;
+                align-items: center;
+              }
+.union-group {
+  top: 40%;
+  right: 80%;
   bottom: 57.91%;
-  left: 7.71%;
-  transform: rotate(90deg);
+  left: 5%;
 }
-.desktop-73 {
+.desktop-77 {
   position: relative;
   background-color: var(--color-steelblue);
   width: 100%;

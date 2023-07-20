@@ -1,35 +1,35 @@
-.spacing36px7,
-.spacing7 {
+.spacing17,
+.spacing36px17 {
   position: absolute;
   width: 100%;
   top: 0;
   right: 0;
   left: 0;
 }
-.spacing7 {
+.spacing17 {
   height: 100%;
   bottom: 0;
   background-color: var(--color-steelblue);
   overflow: hidden;
 }
-.spacing36px7 {
+.spacing36px17 {
   height: 9.38%;
   bottom: 90.63%;
 }
-.union-icon47,
-.union-icon48 {
+.union-icon97,
+.union-icon98 {
   position: relative;
   width: 68px;
   height: 37px;
 }
-.union-icon48 {
+.union-icon98 {
   width: 38px;
   height: 19px;
 }
-.desktop-77-child,
-.desktop-77-child1,
-.desktop-77-inner,
-.desktop-77-item {
+.desktop-72-child,
+.desktop-72-child1,
+.desktop-72-inner,
+.desktop-72-item {
   position: absolute;
   height: 0.98%;
   width: 0.69%;
@@ -40,33 +40,33 @@
   border-radius: 50%;
   background: linear-gradient(180deg, #b7c4d3, #7ca6e3);
 }
-.desktop-77-child1,
-.desktop-77-inner,
-.desktop-77-item {
+.desktop-72-child1,
+.desktop-72-inner,
+.desktop-72-item {
   top: 94.04%;
   right: 20.56%;
   bottom: 4.98%;
   left: 78.75%;
 }
-.desktop-77-child1,
-.desktop-77-inner {
+.desktop-72-child1,
+.desktop-72-inner {
   top: 80.18%;
   right: 10.56%;
   bottom: 18.85%;
   left: 88.75%;
 }
-.desktop-77-child1 {
+.desktop-72-child1 {
   top: 25.98%;
   right: 15.28%;
   bottom: 73.05%;
   left: 84.03%;
 }
-.desktop-77-child2,
-.desktop-77-child3,
-.desktop-77-child4,
-.desktop-77-child5,
-.desktop-77-child6,
-.desktop-77-child7 {
+.desktop-72-child2,
+.desktop-72-child3,
+.desktop-72-child4,
+.desktop-72-child5,
+.desktop-72-child6,
+.desktop-72-child7 {
   position: absolute;
   height: 0.98%;
   width: 0.69%;
@@ -77,52 +77,52 @@
   border-radius: 50%;
   background: linear-gradient(180deg, #b7c4d3, #7ca6e3);
 }
-.desktop-77-child3,
-.desktop-77-child4,
-.desktop-77-child5,
-.desktop-77-child6,
-.desktop-77-child7 {
+.desktop-72-child3,
+.desktop-72-child4,
+.desktop-72-child5,
+.desktop-72-child6,
+.desktop-72-child7 {
   top: 28.03%;
   right: 40.97%;
   bottom: 71%;
   left: 58.33%;
 }
-.desktop-77-child4,
-.desktop-77-child5,
-.desktop-77-child6,
-.desktop-77-child7 {
+.desktop-72-child4,
+.desktop-72-child5,
+.desktop-72-child6,
+.desktop-72-child7 {
   top: 73.24%;
   right: 75%;
   bottom: 25.78%;
   left: 24.31%;
 }
-.desktop-77-child5,
-.desktop-77-child6,
-.desktop-77-child7 {
+.desktop-72-child5,
+.desktop-72-child6,
+.desktop-72-child7 {
   top: 76.07%;
   right: 71.94%;
   bottom: 22.95%;
   left: 27.36%;
 }
-.desktop-77-child6,
-.desktop-77-child7 {
+.desktop-72-child6,
+.desktop-72-child7 {
   top: 77.05%;
   right: 56.81%;
   bottom: 21.97%;
   left: 42.5%;
 }
-.desktop-77-child7 {
+.desktop-72-child7 {
   top: 63.38%;
   right: 88.13%;
   bottom: 35.64%;
   left: 11.18%;
 }
-.desktop-77-child10,
-.desktop-77-child11,
-.desktop-77-child12,
-.desktop-77-child13,
-.desktop-77-child8,
-.desktop-77-child9 {
+.desktop-72-child10,
+.desktop-72-child11,
+.desktop-72-child12,
+.desktop-72-child13,
+.desktop-72-child8,
+.desktop-72-child9 {
   position: absolute;
   height: 0.98%;
   width: 0.69%;
@@ -133,67 +133,67 @@
   border-radius: 50%;
   background: linear-gradient(180deg, #b7c4d3, #7ca6e3);
 }
-.desktop-77-child10,
-.desktop-77-child11,
-.desktop-77-child12,
-.desktop-77-child13,
-.desktop-77-child9 {
+.desktop-72-child10,
+.desktop-72-child11,
+.desktop-72-child12,
+.desktop-72-child13,
+.desktop-72-child9 {
   top: 91.31%;
   right: 12.92%;
   bottom: 7.71%;
   left: 86.39%;
 }
-.desktop-77-child10,
-.desktop-77-child11,
-.desktop-77-child12,
-.desktop-77-child13 {
+.desktop-72-child10,
+.desktop-72-child11,
+.desktop-72-child12,
+.desktop-72-child13 {
   top: 93.07%;
   right: 18.82%;
   bottom: 5.96%;
   left: 80.49%;
 }
-.desktop-77-child11,
-.desktop-77-child12,
-.desktop-77-child13 {
+.desktop-72-child11,
+.desktop-72-child12,
+.desktop-72-child13 {
   top: 89.84%;
   right: 11.25%;
   bottom: 9.18%;
   left: 88.06%;
 }
-.desktop-77-child12,
-.desktop-77-child13 {
+.desktop-72-child12,
+.desktop-72-child13 {
   top: 90.33%;
   right: 25%;
   bottom: 8.69%;
   left: 74.31%;
 }
-.desktop-77-child13 {
+.desktop-72-child13 {
   top: 76.56%;
   right: -0.76%;
   bottom: 22.46%;
   left: 100.07%;
 }
-.turtle-icon2 {
+.turtle-icon7 {
   position: absolute;
   height: 8.3%;
   width: 4.83%;
   top: 2.05%;
-  right: 4.69%;
+  right: 79.48%;
   bottom: 89.65%;
-  left: 90.49%;
+  left: 15.69%;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
   object-fit: cover;
 }
-.desktop-77-child14,
-.rectangle-textarea {
+.desktop-72-child14,
+.desktop-72-child15 {
   position: absolute;
   height: 11.33%;
   border-radius: var(--br-xl);
   box-shadow: 0 4px 20px #d9d9d9;
 }
-.rectangle-textarea {
+.desktop-72-child14 {
   border: 3px solid var(--color-gainsboro);
   background-color: transparent;
   width: 64.65%;
@@ -203,7 +203,7 @@
   left: 17.64%;
   box-sizing: border-box;
 }
-.desktop-77-child14 {
+.desktop-72-child15 {
   width: 76.88%;
   top: 35.84%;
   right: 11.6%;
@@ -211,16 +211,18 @@
   left: 11.53%;
   background-color: var(--color-gainsboro);
 }
-.q6 {
+.q1 {
   position: absolute;
   height: 4.3%;
-  width: 67.01%;
   top: 39.36%;
-  left: 16.46%;
+  left: 21%;
+  right: 21%;
   display: inline-block;
+  justify-content: center;
+  text-align: center;  /* 텍스트를 가운데 정렬 */   /* div를 페이지 가운데로 이동 */
 }
-.desktop-77-child15,
-.desktop-77-child16 {
+.desktop-72-child16,
+.desktop-72-child17 {
   position: absolute;
   height: 1.95%;
   width: 90.21%;
@@ -231,10 +233,12 @@
   border-radius: var(--br-3xs);
   background-color: var(--color);
 }
-.desktop-77-child16 {
+.desktop-72-child17 {
+  width: 15.03%;
+  right: 80.03%;
   background-color: var(--color-deeppink);
 }
-.vector-icon1 {
+.vector-icon6 {
   position: absolute;
   height: 3.91%;
   width: 2.78%;
@@ -246,14 +250,15 @@
   overflow: hidden;
   max-height: 100%;
 }
-.union-icon53 {
+.union-icon103 {
   position: relative;
   width: 22.68px;
   height: 67.99px;
   opacity: 0.85;
 }
-.union-group,
-.union-parent {
+
+.union-parent8 {
+  display: flex;
   cursor: pointer;
   border: 0;
   padding: 0;
@@ -261,21 +266,15 @@
   position: absolute;
   height: 3.91%;
   width: 4.72%;
-  top: 44.82%;
-  right: 2.36%;
-  bottom: 51.27%;
-  left: 92.92%;
-  transform: rotate(-90deg);
+  top: 40%;
+  right: 2.92%;
+  bottom: 51.33%;
+  left: 92.36%;
   transform-origin: 0 0;
+  align-items: center;
 }
-.union-group {
-  top: 38.18%;
-  right: 87.64%;
-  bottom: 57.91%;
-  left: 7.64%;
-  transform: rotate(90deg);
-}
-.desktop-77 {
+
+.desktop-72 {
   position: relative;
   background-color: var(--color-steelblue);
   width: 100%;
