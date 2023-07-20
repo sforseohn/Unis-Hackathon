@@ -46,7 +46,6 @@ public class DiaryAnalysisController {
 
         Diary diary = new Diary();
         diary.setUser(user);
-//        diary.setTitle(request.getTitle());
         diary.setAnswer1(request.getAnswer1());
         diary.setAnswer2(request.getAnswer2());
         diary.setAnswer3(request.getAnswer3());
