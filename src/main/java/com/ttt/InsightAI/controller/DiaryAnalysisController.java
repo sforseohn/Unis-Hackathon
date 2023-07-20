@@ -46,7 +46,6 @@ public class DiaryAnalysisController {
 
         Diary diary = new Diary();
         diary.setUser(user);
-//        diary.setTitle(request.getTitle());
         diary.setAnswer1(request.getAnswer1());
         diary.setAnswer2(request.getAnswer2());
         diary.setAnswer3(request.getAnswer3());
@@ -60,9 +59,6 @@ public class DiaryAnalysisController {
         Analysis analysis = new Analysis();
         analysis.setUser(user);
         analysis.setDiary(diary); // Now we can set the Diary to the Analysis
-
-        // Here, call the method that analyzes the diary and fill the fields of analysis...
-        // analysis = analyzeWithGpt(analysis, diary);
 
         try {
             analysis = openAiService.fetchDiaryAnalysis(diary, analysis);

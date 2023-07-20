@@ -187,13 +187,13 @@
   object-fit: cover;
 }
 .desktop-77-child14,
-.rectangle-textarea {
+.answer6 {
   position: absolute;
   height: 11.33%;
   border-radius: var(--br-xl);
   box-shadow: 0 4px 20px #d9d9d9;
 }
-.rectangle-textarea {
+.answer6 {
   border: 3px solid var(--color-gainsboro);
   background-color: transparent;
   width: 64.65%;
@@ -203,9 +203,20 @@
   left: 17.64%;
   box-sizing: border-box;
 
+  text-align: center;
   font-size: 20px;
-  color: white;
-  padding-top: 1rem;
+    color: white;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.answer6::placeholder {
+    text-align: left;
+     padding-left: 3rem;
+     padding-top: 1rem;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.5);
 }
 .desktop-77-child14 {
   width: 76.88%;

@@ -45,14 +45,14 @@
       <img class="turtle-icon5" alt="" src="../static/public/turtle2@2x.png" />
 
       <textarea
-        class="desktop-74-child14"
+        class="answer3"
         placeholder="직접 입력"
         required
         name="answer3"
       >
       </textarea>
       <div class="desktop-74-child15"></div>
-      <div class="q3">Q3: 상대방은 왜 그렇게 행동 했을 것이라 생각하나요?</div>
+      <div class="q3">Q3: (상대방이 있는 문제라면) 상대는 이 문제에 대해 어떻게 말할까요?</div>
       <div class="desktop-74-child16"></div>
       <div class="desktop-74-child17"></div>
       <img class="vector-icon4" alt="" src="../static/public/vector.svg" />
@@ -70,19 +70,21 @@
     </div>
 
     <script>
-      var groupButton = document.getElementById("groupButton1");
+        var groupButton1 = document.getElementById("groupButton1");
+        if (groupButton1) {
+          groupButton1.addEventListener("click", function (e) {
+            window.location.href = "Q2.html";
+        });
+      }
+
+      var groupButton = document.getElementById("groupButton");
+      var answer3 = document.getElementsByClassName("answer3")[0];
       if (groupButton) {
         groupButton.addEventListener("click", function (e) {
-          window.location.href = "Q2.html";
-        });
-      }
-      
-      var groupButton1 = document.getElementById("groupButton");
-      if (groupButton1) {
-        groupButton1.addEventListener("click", function (e) {
-          window.location.href = "Q4.html";
-        });
-      }
+        localStorage.setItem('answer3', answer3.value);
+        window.location.href = "Q4.html";
+      });
+    }
       </script>
   </body>
 </html>

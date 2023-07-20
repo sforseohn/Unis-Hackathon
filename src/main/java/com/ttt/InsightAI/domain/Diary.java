@@ -20,10 +20,6 @@ public class Diary {   //질문에 대한 답 저장
     @JoinColumn(name = "user_id")
     private User user;
 
-//    private String title;
-//    private String content;
-//    private LocalDateTime date;
-
     private LocalDateTime date;
 
     @Column

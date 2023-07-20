@@ -45,7 +45,7 @@
       <img class="turtle-icon6" alt="" src="../static/public/turtle2@2x.png" />
 
       <textarea
-        class="desktop-73-child14"
+        class="answer2"
         placeholder="직접 입력"
         required
         name="answer2"
@@ -70,19 +70,23 @@
     </div>
 
     <script>
-      var groupButton = document.getElementById("groupButton1");
+      var groupButton1 = document.getElementById("groupButton1");
+        if (groupButton1) {
+          groupButton1.addEventListener("click", function (e) {
+            window.location.href = "Q1.html";
+        });
+      }
+
+      var groupButton = document.getElementById("groupButton");
+      var answer2 = document.getElementsByClassName("answer2")[0];
       if (groupButton) {
         groupButton.addEventListener("click", function (e) {
-          window.location.href = "Q1.html";
-        });
-      }
-      
-      var groupButton1 = document.getElementById("groupButton");
-      if (groupButton1) {
-        groupButton1.addEventListener("click", function (e) {
-          window.location.href = "Q3.html";
-        });
-      }
+        localStorage.setItem('answer2', answer2.value);
+        window.location.href = "Q3.html";
+      });
+    }
+
+
       </script>
   </body>
 </html>

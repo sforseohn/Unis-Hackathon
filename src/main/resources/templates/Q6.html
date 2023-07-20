@@ -44,7 +44,7 @@
       <div class="desktop-77-child13"></div>
       <img class="turtle-icon2" alt="" src="../static/public/turtle2@2x.png" />
 
-      <textarea class="rectangle-textarea" placeholder="직접 입력" required>
+      <textarea class="answer6" placeholder="직접 입력" required>
       </textarea>
       <div class="desktop-77-child14"></div>
       <div class="q6">
@@ -54,30 +54,24 @@
       <div class="desktop-77-child16"></div>
       <img class="vector-icon1" alt="" src="../static/public/vector.svg" />
 
-      <button class="union-parent" id="groupButton1">
+      <button class="union-parent" id="groupButton">
         <img class="union-icon53" alt="" src="../static/public/union16.svg" />
         <img class="union-icon53" alt="" src="../static/public/union17.svg" />
       </button>
-      <button class="union-group" id="groupButton">
+      <button class="union-group" id="groupButton1">
         <img class="union-icon53" alt="" src="../static/public/union18.svg" />
         <img class="union-icon53" alt="" src="../static/public/union19.svg" />
       </button>
     </div>
 
     <script>
-      var groupButton = document.getElementById("groupButton");
-      if (groupButton) {
-        groupButton.addEventListener("click", function (e) {
-          window.location.href = "Q5.html";
+        var groupButton1 = document.getElementById("groupButton1");
+        if (groupButton1) {
+          groupButton1.addEventListener("click", function (e) {
+            window.location.href = "Q5.html";
         });
       }
-      
-      var groupButton1 = document.getElementById("groupButton1");
-      if (groupButton1) {
-        groupButton1.addEventListener("click", function (e) {
-          window.location.href = "result.html";
-        });
-      }
-      </script>
+    </script>
+    <script src="./js/answer.js"></script>
   </body>
 </html>

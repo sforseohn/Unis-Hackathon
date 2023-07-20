@@ -44,12 +44,6 @@
       <div class="desktop-72-child13"></div>
       <img class="turtle-icon7" alt="" src="../static/public/turtle2@2x.png" />
 
-      <textarea
-        class="desktop-72-child14"
-        placeholder="직접 입력"
-        required
-        name="answer1"
-      >
       </textarea>
       <div class="desktop-72-child15"></div>
       <div class="q1">
@@ -59,19 +53,25 @@
       <div class="desktop-72-child17"></div>
       <img class="vector-icon6" alt="" src="../static/public/vector.svg" />
 
-      <button class="union-parent8" id="groupButton">
+      <form id="q1Form" method="POST">
+        <textarea class="answer1" placeholder="직접 입력" required name="answer1"></textarea>
+
+      <button type="submit" class="union-parent8" id="groupButton">
         <img class="union-icon103" alt="" src="../static/public/union20.svg" />
         <img class="union-icon103" alt="" src="../static/public/union21.svg" />
       </button>
+      </form>
     </div>
 
     <script>
       var groupButton = document.getElementById("groupButton");
+      var answer1 = document.getElementsByClassName("answer1")[0];
       if (groupButton) {
         groupButton.addEventListener("click", function (e) {
-          window.location.href = "Q2.html";
-        });
-      }
-      </script>
+        localStorage.setItem('answer1', answer1.value);
+        window.location.href = "Q2.html";
+      });
+    }
+    </script>
   </body>
 </html>
