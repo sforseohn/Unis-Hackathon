@@ -5,6 +5,13 @@
     font-style: normal;
 }
 
+@font-face {
+  font-family: 'PyeongChang-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/PyeongChang-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body, input, textarea {
   margin: 0;
   line-height: normal;
@@ -13,6 +20,7 @@ body, input, textarea {
 
 :root {
   --font-pyeongchang: 'PyeongChang-Bold', sans-serif;
+  --font-light: 'PyeongChang-Regular', sans-serif;
 
   /* font sizes */
   --font-size-base: 16px;
@@ -30,6 +38,8 @@ body, input, textarea {
   --color-black: #000;
   --color-gray-100: #1e1e1e;
   --color-gray: #181818;
+  --color-silver-100: #b6cecc;
+  --color-silver-200: rgba(182, 206, 204, 0.2);
   --color-gray-200: rgba(24, 24, 24, 0.5);
   --color-gray-300: rgba(24, 24, 24, 0.5);
   --color-steelblue-100: #014972;
