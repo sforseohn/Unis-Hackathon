@@ -31,7 +31,7 @@ public class DiaryAnalysisController {
         this.openAiService = openAiService;
     }
 
-    @PostMapping("/result")
+    @PostMapping
     public Analysis analyzeDiary(@RequestBody AnswerRequest request) {
         if (request.getUserId() == null || request.getAnswer1() == null || request.getAnswer2() == null || request.getAnswer3() == null ||
                 request.getAnswer4() == null || request.getAnswer5() == null ||request.getAnswer6() == null) {

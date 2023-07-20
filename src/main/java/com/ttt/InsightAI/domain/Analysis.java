@@ -35,7 +35,6 @@ public class Analysis { //gpt의 대답 - 분석 결과
 
 //gpt 분석결과지
     // 고민 카테고리 분류: [인간관계, 건강, 재물, 진로] 중에서 선택
-    private String category;
 
     //객관적인 상황 분석, 요약 (2줄)
     @Column
@@ -61,10 +60,5 @@ public class Analysis { //gpt의 대답 - 분석 결과
     @ElementCollection
     private List<String> Keywords;
 
-    // Emotion
-    @ElementCollection
-    private List<String> emotionKeywords;
-    @Column
-    private String emotionExplanation;
 
 }
