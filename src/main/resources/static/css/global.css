@@ -12,6 +12,8 @@ body, input, textarea {
 }
 
 :root {
+  --font-pyeongchang: 'PyeongChang-Bold', sans-serif;
+
   /* font sizes */
   --font-size-base: 16px;
   --font-size-13xl: 32px;
@@ -19,12 +21,17 @@ body, input, textarea {
   --font-size-5xl: 24px;
   --font-size-7xl: 26px;
 
+  --font-size-xl: 1.25rem;
+
   /* Colors */
   --color-white: #fff;
+  --color-steelblue-100: #014972;
+  --color-steelblue-200: #004871;
   --color-black: #000;
   --color-gray-100: #1e1e1e;
   --color-gray: #181818;
   --color-gray-200: rgba(24, 24, 24, 0.5);
+  --color-gray-300: rgba(24, 24, 24, 0.5);
   --color-steelblue-100: #014972;
   --color-steelblue: #004871;
   --color-seashell: #fff5f2;
