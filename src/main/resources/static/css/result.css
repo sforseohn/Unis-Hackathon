@@ -204,20 +204,20 @@ body {
 .p4 {
   margin: 0;
 }
-.div1,
-.div2 {
+#commonbox,
+#comfort {
   position: absolute;
   text-align: center;
   display: inline-block;
 }
-.div1 {
+#comfort {
   height: 20.9%;
   width: 19.93%;
   top: 63.48%;
   left: 7.78%;
   font-size: var(--font-size-base);
 }
-.div2 {
+#commonbox {
   height: 21.39%;
   width: 60.83%;
   top: 63.18%;

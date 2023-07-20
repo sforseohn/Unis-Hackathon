@@ -74,8 +74,15 @@ public class DiaryAnalysisController {
         return analysis;
     }
 
-    @GetMapping("/{userId}")
-    public ResponseEntity<List<Analysis>> getAnalysis(@PathVariable Long userId) {
+    @GetMapping("/{id}")
+    public Analysis getAnalysis(@PathVariable Long id) {
+        Analysis analysis = analysisRepository.findById(id).orElseThrow(
+                () -> new ResponseStatusException(HttpStatus.NOT_FOUND, "Analysis not found"));
+        return analysis;
+    }
+
+    @GetMapping("/list/{userId}")
+    public ResponseEntity<List<Analysis>> getAnalysisList(@PathVariable Long userId) {
         User user = userRepository.findById(userId).orElseThrow(
                 () -> new ResponseStatusException(HttpStatus.NOT_FOUND, "User not found"));
         return ResponseEntity.ok(analysisRepository.findByUser(user));

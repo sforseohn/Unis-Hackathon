@@ -27,12 +27,6 @@ public class Analysis { //gpt의 대답 - 분석 결과
     @JoinColumn(name = "user_id", nullable = false)
     private User user;
 
-//    // Question 1
-//    @ElementCollection
-//    private List<String> q1Keywords;
-//    @Column
-//    private String  q1Explanation;
-
     //gpt 분석결과지
     //객관적인 상황 분석, 요약 (2줄)
     @Column
@@ -57,11 +51,4 @@ public class Analysis { //gpt의 대답 - 분석 결과
     //내담자가 말한 내용을 키워드로 추출
     @ElementCollection
     private List<String> Keywords;
-
-    // Emotion
-    @ElementCollection
-    private List<String> emotionKeywords;
-    @Column
-    private String emotionExplanation;
-
 }

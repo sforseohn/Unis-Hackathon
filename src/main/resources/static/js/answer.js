@@ -42,13 +42,15 @@ document.getElementById("q6Form").addEventListener("submit", function (e) {
               body: JSON.stringify(allAnswers)
             })
             .then(response => response.json())
-            .then(data => console.log(data))
+            .then(data => {
+                console.log(data);
+                localStorage.setItem('analysisId', data.id);
+                // '/result' 페이지로 이동합니다.
+                window.location.href = '/result';
+            })
             .catch((error) => {
               console.error('Error:', error);
             });
-
-            // '/result' 페이지로 이동합니다.
-             window.location.href = '/result';
         });
 
 
