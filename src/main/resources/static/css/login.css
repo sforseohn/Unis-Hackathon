@@ -244,13 +244,14 @@
   height: 3.22%;
   width: 6.39%;
   top: 55.86%;
-  left: 36.6%;
+  left: 41%;
   color: var(--color-gray-200);
   text-align: left;
 }
 .input1 {
   width: 3.33%;
   top: 46.97%;
+  left:41%;
 }
 .group-child1 {
   position: absolute;

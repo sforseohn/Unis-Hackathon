@@ -229,8 +229,13 @@
 .input,
 .input1 {
   position: absolute;
+  height: 4.39%;
+  width: 25.42%;
+  top: 32.32%;
+  left: 37.29%;
   display: inline-block;
 }
+
 .input,
 .input1 {
   border: 0;
@@ -238,14 +243,16 @@
   font-size: var(--font-size-5xl);
   background-color: transparent;
   height: 3.22%;
-  left: 40%;
-  width: 20%;
+  width: 6.39%;
+  top: 55.86%;
+  left: 41%;
   color: var(--color-gray-200);
   text-align: left;
 }
 .input1 {
   width: 20%;
   top: 46.97%;
+  left: 41%;
 }
 .group-child1 {
   position: absolute;

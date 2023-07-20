@@ -416,6 +416,7 @@
 .group-child2 {
   cursor: pointer;
   border: 3px solid var(--color-gainsboro);
+  z-index: 10;
   padding: 0;
   background-color: transparent;
   height: 100%;
@@ -539,8 +540,8 @@
 }
 .div22 {
   position: absolute;
-  height: 42.98%;
-  width: 81.08%;
+  height: 5%;
+  width: 10%;
   top: 28.07%;
   left: 17.3%;
   font-size: var(--font-size-13xl);
@@ -570,6 +571,7 @@
 .union-icon44,
 .union-icon45 {
   position: relative;
+  z-index: -1;
   width: 215.7px;
   height: 420.7px;
 }
