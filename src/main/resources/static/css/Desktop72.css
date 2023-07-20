@@ -214,10 +214,12 @@
 .q1 {
   position: absolute;
   height: 4.3%;
-  width: 52.36%;
   top: 39.36%;
-  left: 23.82%;
+  left: 21%;
+  right: 21%;
   display: inline-block;
+  justify-content: center;
+  text-align: center;  /* 텍스트를 가운데 정렬 */   /* div를 페이지 가운데로 이동 */
 }
 .desktop-72-child16,
 .desktop-72-child17 {
