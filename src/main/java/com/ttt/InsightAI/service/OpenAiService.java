@@ -89,20 +89,15 @@ public class OpenAiService {
                 System.out.println(content);
                 JSONObject resultJson = new JSONObject(content);
 
-                analysis.setQ1Keywords(jsonArrayToList(resultJson.getJSONArray("q1Keywords")));
+                analysis.setCategory(resultJson.getString("category"));
+
                 analysis.setQ1Explanation(resultJson.getString("q1Explanation"));
-
-                analysis.setQ2Keywords(jsonArrayToList(resultJson.getJSONArray("q2Keywords")));
                 analysis.setQ2Explanation(resultJson.getString("q2Explanation"));
-
-                analysis.setQ3Keywords(jsonArrayToList(resultJson.getJSONArray("q3Keywords")));
                 analysis.setQ3Explanation(resultJson.getString("q3Explanation"));
-
-                analysis.setQ4Keywords(jsonArrayToList(resultJson.getJSONArray("q4Keywords")));
                 analysis.setQ4Explanation(resultJson.getString("q4Explanation"));
+                analysis.setQ5Explanation(resultJson.getString("q5Explanation"));
 
-                analysis.setEmotionKeywords(jsonArrayToList(resultJson.getJSONArray("emotionKeywords")));
-                analysis.setEmotionExplanation(resultJson.getString("emotionExplanation"));
+                analysis.setKeywords(jsonArrayToList(resultJson.getJSONArray("keywords")));
 
                 return analysis;
             }
