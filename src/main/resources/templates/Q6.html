@@ -60,7 +60,7 @@
       <form id="q6Form">
         <textarea class="answer6" placeholder="직접 입력" required name="answer6"></textarea>
 
-        <button class="union-parent" id="groupButton">
+        <button type="submit" class="union-parent" id="groupButton">
           <img class="union-icon53" alt="" src="public/union16.svg" />
           <img class="union-icon53" alt="" src="public/union17.svg" />
         </button>
@@ -69,6 +69,11 @@
 
     <script>
         var groupButton1 = document.getElementById("groupButton1");
+
+        document.getElementById("q6Form").addEventListener("submit", function (e) {
+        e.preventDefault();
+        });
+
         if (groupButton1) {
           groupButton1.addEventListener("click", function (e) {
             window.location.href = "\q5";

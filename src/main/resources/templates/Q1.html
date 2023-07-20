@@ -66,6 +66,11 @@
     <script>
       var groupButton = document.getElementById("groupButton");
       var answer1 = document.getElementsByClassName("answer1")[0];
+
+      document.getElementById("q1Form").addEventListener("submit", function (e) {
+        e.preventDefault();
+      });
+
       if (groupButton) {
         groupButton.addEventListener("click", function (e) {
         localStorage.setItem('answer1', answer1.value);

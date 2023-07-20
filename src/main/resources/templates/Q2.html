@@ -60,7 +60,7 @@
       <form id="q2Form">
         <textarea class="answer2" placeholder="직접 입력" required name="answer2"></textarea>
 
-        <button class="union-parent6" id="groupButton">
+        <button type="submit" class="union-parent6" id="groupButton">
           <img class="union-icon93" alt="" src="public/union16.svg" />
           <img class="union-icon93" alt="" src="public/union17.svg" />
         </button>
@@ -77,6 +77,11 @@
 
       var groupButton = document.getElementById("groupButton");
       var answer2 = document.getElementsByClassName("answer2")[0];
+
+      document.getElementById("q2Form").addEventListener("submit", function (e) {
+        e.preventDefault();
+      });
+
       if (groupButton) {
         groupButton.addEventListener("click", function (e) {
         localStorage.setItem('answer2', answer2.value);
