@@ -33,10 +33,7 @@ public class Analysis { //gpt의 대답 - 분석 결과
 //    @Column
 //    private String  q1Explanation;
 
-//gpt 분석결과지
-    // 고민 카테고리 분류: [인간관계, 건강, 재물, 진로] 중에서 선택
-    private String category;
-
+    //gpt 분석결과지
     //객관적인 상황 분석, 요약 (2줄)
     @Column
     private String  q1Explanation;
