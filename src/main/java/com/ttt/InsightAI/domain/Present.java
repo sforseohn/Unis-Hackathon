@@ -5,20 +5,18 @@ import lombok.Getter;
 import lombok.Setter;
 
 import javax.persistence.*;
-import java.time.LocalDateTime;
 import java.util.List;
 
 @Entity
 @Table(name = "present")
 @Getter @Setter
-public class DiaryAnalysis { //선물(유튜브, 책)
+public class Present { //선물(유튜브, 책)
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     @OneToOne
-    @MapsId
     @JsonBackReference(value = "p_diary")
     private Diary diary;
 
