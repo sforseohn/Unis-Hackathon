@@ -8,91 +8,27 @@
   }
   .tropical-leaf-icon {
     position: absolute;
-    top: 0;
-    left: 263px;
-    width: 443px;
-    height: 456px;
-    object-fit: cover;
+    width: 2100px;
+    height: 1207.429px;
+    background-position: center;
+
   }
-  .tropical-leaf-icon1,
-  .tropical-leaf-icon2 {
+
+  .key-button-icon{
     position: absolute;
-    top: 0;
-    left: 628px;
-    width: 594.16px;
-    height: 548.38px;
-    object-fit: cover;
+    z-index: 10;
+    width: 710px;
+    height: 660px;
+    z-index: 10;
+    top: 22%;
+    left:32%;
   }
-  .tropical-leaf-icon2 {
-    top: 243px;
-    left: 863px;
-    width: 577px;
-    height: 617.61px;
-  }
-  .tropical-leaf-icon3,
-  .tropical-leaf-icon4 {
-    position: absolute;
-    top: 222.9px;
-    left: 0;
-    width: 575.93px;
-    height: 623.32px;
-    object-fit: cover;
-  }
-  .tropical-leaf-icon4 {
-    top: 573.69px;
-    left: 184.46px;
-    width: 600.98px;
-    height: 450.31px;
-  }
-  .ellipse-icon,
-  .tropical-leaf-icon5 {
-    position: absolute;
-    top: 596px;
-    left: 661px;
-    width: 469.08px;
-    height: 428px;
-    object-fit: cover;
-  }
-  .ellipse-icon {
-    top: 0;
-    left: 0;
-    border-radius: 50%;
-    width: 650px;
-    height: 650px;
-    cursor: pointer;
-  }
-  .ellipse-icon:hover {
-    width: 650px;
-  }
-  .union-icon106 {
-    position: relative;
-    width: 269.62px;
-    height: 449px;
-  }
-  .flock-of-fish {
-    position: absolute;
-    height: 70.15%;
-    width: 64.77%;
-    top: 14.92%;
-    right: 0;
-    bottom: 14.92%;
-    left: 35.23%;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-    object-fit: cover;
-  }
-  .ellipse-parent {
-    cursor: pointer;
-    border: 0;
-    padding: 0;
-    background-color: transparent;
-    position: relative;
-    top: 0;
-    left: 0;
-    width: 704px;
-    height: 650px;
-  }
+
+a {
+  cursor: pointer;
+}
+
+
   .group-child8 {
     position: absolute;
     height: 1.54%;
