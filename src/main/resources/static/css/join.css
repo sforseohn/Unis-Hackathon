@@ -238,6 +238,8 @@
 
 .input,
 .input1 {
+border: none; /* Removes the border */
+  outline: none;
   border: 0;
   font-family: var(--font-carter-one);
   font-size: var(--font-size-5xl);
