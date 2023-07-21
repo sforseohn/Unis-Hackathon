@@ -7,28 +7,36 @@ document.addEventListener('DOMContentLoaded', function() {
         .then(data => {
             console.log(data);
 
-            // 이 부분에서 HTML 요소를 선택하고, 그 내용을 위에서 받은 데이터로 업데이트합니다.
-            /*
-            document.getElementById("comfort").innerText = data.q2Explanation;
-            document.getElementById("commonbox").innerText = data.q1Explanation;
+            data.youtubeUrl.forEach((videoLink, index) => {
+                    const videoId = getYouTubeId(videoLink);
+                    const thumbnailUrl = "https://img.youtube.com/vi/" + videoId + "/0.jpg";
 
-            document.getElementById("q1").addEventListener("click", function() {
-                document.getElementById("commonbox").innerText = data.q1Explanation;
+                    // Create an image element for the thumbnail
+                    const img = document.createElement("img");
+                    img.src = thumbnailUrl;
+                    img.alt = "Video thumbnail";
+
+                    // Add the image and video link to the anchor element
+                    const anchor = document.getElementById('video' + (index + 1));
+                    anchor.href = videoLink;
+                    anchor.target = "_blank";
+                    anchor.appendChild(img);
+
             });
-
-            document.getElementById("q3").addEventListener("click", function() {
-                document.getElementById("commonbox").innerText = data.q3Explanation;
-            });
-
-            document.getElementById("q4").addEventListener("click", function() {
-                document.getElementById("commonbox").innerText = data.q4Explanation;
-            });
-
-            document.getElementById("q5").addEventListener("click", function() {
-                document.getElementById("commonbox").innerText = data.q5Explanation;
-            });
-             */
-
         });
 });
+
+function getYouTubeId(url) {
+  var id = '';
+  url = url.replace(/(>|<)/gi,'').split(/(vi\/|v=|\/v\/|youtu\.be\/|\/embed\/)/);
+  if(url[2] !== undefined) {
+    id = url[2].split(/[^0-9a-z_\-]/i);
+    id = id[0];
+  }
+  else {
+    id = url;
+  }
+  return id;
+}
+
 
