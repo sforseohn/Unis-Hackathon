@@ -18,6 +18,7 @@ import java.util.List;
 public class YoutubeService {
     private static final String APPLICATION_NAME = "AIzaSyAGl4TZ9ldm4oLG5OnJbmTdmP2aLsG_yH0";
     private static final JsonFactory JSON_FACTORY = JacksonFactory.getDefaultInstance();
+    String searchWord="고민상담 인간관계";
 
     public List<String> searchVideos(List<String> keywords) {
         List<String> youtubeUrls = new ArrayList<>();
@@ -32,17 +33,27 @@ public class YoutubeService {
             YouTube.Search.List request = youtubeService.search()
                     .list("id,snippet");
 
-            for (String keyword : keywords) {
-                SearchListResponse response = request.setMaxResults(4L)//2개 보여주기
-                        .setQ(keyword)
-                        .setType("video")
-                        .setKey("AIzaSyAGl4TZ9ldm4oLG5OnJbmTdmP2aLsG_yH0")
-                        .execute();
+            //keywords loop를 돌면서 하나의 검색어로 만들어서 작성
+            for(String keyword : keywords){
+                searchWord += " "+keyword;
+            }
+            System.out.print("검색어는 다음과 같습니다.: ");
+            System.out.println(searchWord);
 
-                for (SearchResult searchResult : response.getItems()) {
-                    String videoId = searchResult.getId().getVideoId();
-                    youtubeUrls.add("https://www.youtube.com/watch?v=" + videoId);
-                }
+            SearchListResponse response = request.setMaxResults(4L)//4개 보여주기
+                    .setQ(searchWord)
+                    .setType("video")
+                    .setKey("AIzaSyAGl4TZ9ldm4oLG5OnJbmTdmP2aLsG_yH0")
+                    .execute();
+
+            for (SearchResult searchResult : response.getItems()) {
+                String videoId = searchResult.getId().getVideoId();
+                youtubeUrls.add("https://www.youtube.com/watch?v=" + videoId);
+            }
+
+            System.out.println("검색된 url은 다음과 같습니다.");
+            for(String url : youtubeUrls){
+                System.out.println(url);
             }
 
         } catch (GeneralSecurityException | GoogleJsonResponseException e) {
@@ -50,7 +61,6 @@ public class YoutubeService {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
         return youtubeUrls;
     }
 }
