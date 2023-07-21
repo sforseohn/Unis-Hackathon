@@ -12,19 +12,17 @@ import java.net.SocketTimeoutException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 @Service
 public class OpenAiService {
     private static final String OPENAI_URL = "https://api.openai.com/v1/chat/completions";
     private static final String API_KEY = "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";
-    private final String apiKey;
+    private final String apikey;
     private final OkHttpClient client;
 
 
     public OpenAiService() {
-        this.apiKey = API_KEY;
+        this.apikey = API_KEY;
         // Create OkHttpClient with a timeout of 300 seconds
         this.client = new OkHttpClient.Builder()
                 .readTimeout(300, TimeUnit.SECONDS)
@@ -83,7 +81,7 @@ public class OpenAiService {
 
         Request request = new Request.Builder()
                 .url(OPENAI_URL)
-                .addHeader("Authorization", "Bearer " + apiKey)
+                .addHeader("Authorization", "Bearer " + apikey)
                 .post(body)
                 .build();
 
