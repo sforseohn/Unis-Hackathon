@@ -16,7 +16,7 @@ import java.util.concurrent.TimeUnit;
 @Service
 public class OpenAiService {
     private static final String OPENAI_URL = "https://api.openai.com/v1/chat/completions";
-    private static final String API_KEY = "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";
+    private static final String API_KEY = "";
     private final String apikey;
     private final OkHttpClient client;
 
