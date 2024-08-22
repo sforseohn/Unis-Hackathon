@@ -28,18 +28,6 @@
 
 ---
 
-### User Flow
-
-![Main Function 1](https://github.com/sforseohn/Unis-Hackathon/blob/main/images/main%20function1.png)
-![Main Function 2](https://github.com/sforseohn/Unis-Hackathon/blob/main/images/main%20function2.png)
-![Main Function 3](https://github.com/sforseohn/Unis-Hackathon/blob/main/images/main%20function3.png)
-![Main Function 4](https://github.com/sforseohn/Unis-Hackathon/blob/main/images/main%20function4.png)
-![Main Function 5](https://github.com/sforseohn/Unis-Hackathon/blob/main/images/main%20function5.png)
-![Competitiveness Analysis](https://github.com/sforseohn/Unis-Hackathon/blob/main/images/%EA%B2%BD%EC%9F%81%EB%A0%A5%ED%99%95%EB%B3%B4%EB%B0%A9%EC%95%88.png)
-![Market Analysis](https://github.com/sforseohn/Unis-Hackathon/blob/main/images/%EC%8B%9C%EC%9E%A5%EB%B6%84%EC%84%9D.png)
-
----
-
 ### 🛠️ 기술 스택
 
 - **프론트엔드**: ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) ![Vanilla JS](https://img.shields.io/badge/Vanilla%20JS-000000?style=for-the-badge&logo=javascript&logoColor=white) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
@@ -49,6 +37,18 @@
 - **AI 서비스**: ![ChatGPT](https://img.shields.io/badge/ChatGPT-00A67E?style=for-the-badge&logo=openai&logoColor=white)
 - **API**: ![YouTube API](https://img.shields.io/badge/YouTube%20API-FF0000?style=for-the-badge&logo=youtube&logoColor=white)
 - **개발 도구**: ![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=for-the-badge&logo=intellij-idea&logoColor=white)
+
+---
+
+### User Flow
+
+![Main Function 1](https://github.com/sforseohn/Unis-Hackathon/blob/main/images/main%20function1.png)
+![Main Function 2](https://github.com/sforseohn/Unis-Hackathon/blob/main/images/main%20function2.png)
+![Main Function 3](https://github.com/sforseohn/Unis-Hackathon/blob/main/images/main%20function3.png)
+![Main Function 4](https://github.com/sforseohn/Unis-Hackathon/blob/main/images/main%20function4.png)
+![Main Function 5](https://github.com/sforseohn/Unis-Hackathon/blob/main/images/main%20function5.png)
+![Competitiveness Analysis](https://github.com/sforseohn/Unis-Hackathon/blob/main/images/%EA%B2%BD%EC%9F%81%EB%A0%A5%ED%99%95%EB%B3%B4%EB%B0%A9%EC%95%88.png)
+![Market Analysis](https://github.com/sforseohn/Unis-Hackathon/blob/main/images/%EC%8B%9C%EC%9E%A5%EB%B6%84%EC%84%9D.png)
 
 ---
 
@@ -94,8 +94,10 @@
 
 ---
 
-📝 기여 방법
+### 📝 **기여 방법**
+
 현재 이 프로젝트는 해커톤을 위한 단기 프로젝트로 외부 기여는 받지 않습니다. 프로젝트에 대한 피드백은 언제든지 환영합니다!
 
-📋 라이선스
+
+### 📋 **라이선스**
 이 프로젝트는 해커톤을 위해 제작된 비공개 프로젝트입니다.
